@@ -2,7 +2,7 @@
 const { test, expect } = require('@playwright/test');
 
 const supportedLanguages = [
-    { location: 'de-DE', lang: 'Europe/Berlin' },
+    { locale: 'de-DE', timezoneId: 'Europe/Berlin' },
     { locale: 'es-AR', timezoneId: 'America/Buenos_Aires' }
 ]
 
