@@ -1,0 +1,39 @@
+name: trigger-e2e-suite
+on:
+  workflow_dispatch:
+    description: Lets user run an e2e test suite in any env-config
+    inputs:
+      baseUrl:
+        description: any deployment to execute the tests against
+        required: true
+        type: choice
+        options:
+          - ''
+          - ''
+        env-config:
+          description: 'Env to run tests in: the config is used, but the baseUrl is overwritten by the above'
+          required: true
+          type: choice
+          options:
+            - 'stage'
+            - 'prod'
+          times:
+            description: Number of times to repeat the test suite entirely
+            required: false
+            default: '1'
+            type: string
+
+jobs:
+  trigger-e2e-suite:
+    uses: ''
+    with:
+      project-directory: './'
+      baseUrl: ''
+      env-config: ''
+      times: ''
+    
+    secrets:
+      access_key_id: ''
+      secret_access_key: ''
+      TEST_ACCOUNT_EMAIL: ''
+      TEST_ACCOUNT_PASSWORD: ''

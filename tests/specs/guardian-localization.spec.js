@@ -1,0 +1,61 @@
+// @ts-check
+const { test, expect } = require('@playwright/test');
+
+const supportedLanguages = [
+    { location: 'de-DE', lang: 'Europe/Berlin' },
+    { locale: 'es-AR', timezoneId: 'America/Buenos_Aires' }
+]
+
+
+// C1538760 - Verify that error page is available in new regions 
+test.describe('guardian localization', () => {
+    for (const language of supportedLanguages){
+        test.describe(`${language.timezoneId} - https://vpn.mozilla.org/vpn/download`, () => {
+            test.use({ locale: language.locale, timezoneId: language.timezoneId  })
+            test.beforeEach(async ({ page }) => {
+                await page.goto('https://vpn.mozilla.org/vpn/download', { waitUntil: 'networkidle' });
+            });
+
+            test(`Verify availability in ${language.timezoneId} for for /download`, async ({ page }) => {            
+                expect(await page.screenshot()).toMatchSnapshot(`${language.locale}-download-page.png`);
+            });
+        });
+
+        test.describe(`${language.timezoneId} - https://vpn.mozilla.org/vpn/client/login/success`, () => {
+            test.use({ locale: language.locale, timezoneId: language.timezoneId  })
+            test.beforeEach(async ({ page }) => {
+                await page.goto('https://vpn.mozilla.org/vpn/client/login/success', { waitUntil: 'networkidle' });
+            });
+
+            test(`Verify availability in ${language.timezoneId} for for /login/success`, async ({ page }) => {            
+                expect(await page.screenshot()).toMatchSnapshot(`${language.locale}-success-page.png`);
+            });
+        });
+
+    
+        test.describe(`${language.timezoneId} - https://vpn.mozilla.org/vpn/client/login/error`, () => {
+            test.use({ locale: language.locale, timezoneId: language.timezoneId  })
+            test.beforeEach(async ({ page }) => {
+                await page.goto('https://vpn.mozilla.org/vpn/client/login/error', { waitUntil: 'networkidle' });
+              });
+    
+            test.only(`Verify availability in ${language.timezoneId} for /login/error`, async ({ page }) => {            
+                expect(await page.screenshot()).toMatchSnapshot(`${language.locale}-error-page.png`);
+            });
+        });
+    
+
+    
+        test.describe(`${language.timezoneId} - https://vpn.mozilla.org/vpn/sdfgsd`, async () => {
+            test.use({ locale: language.locale, timezoneId: language.timezoneId  })  
+            test.beforeEach(async ({ page }) => {                
+                await page.goto('https://vpn.mozilla.org/vpn/sdfgsd', { waitUntil: 'networkidle' });
+            });
+            
+
+            test(`Verify availability in ${language.timezoneId} for page /sdfgsd`, async ({ page }) => {            
+                expect(await page.screenshot()).toMatchSnapshot(`${language.locale}-404-page.png`);
+            });
+        });
+    }
+});
