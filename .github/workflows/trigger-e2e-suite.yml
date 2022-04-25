@@ -8,8 +8,8 @@ on:
         required: true
         type: choice
         options:
-          - ''
-          - ''
+          - 'https://www-dev.allizom.org/products/vpn/'
+          - 'https://www.vpn.mozilla.org/'
         env-config:
           description: 'Env to run tests in: the config is used, but the baseUrl is overwritten by the above'
           required: true
@@ -25,15 +25,11 @@ on:
 
 jobs:
   trigger-e2e-suite:
-    uses: ''
     with:
-      project-directory: './'
-      baseUrl: ''
-      env-config: ''
-      times: ''
+      project-directory: '.'
+      baseUrl: '${{ secrets.testBaseUrl }}'      
+      times: '${{ secrets.testRetries }}'
     
     secrets:
-      access_key_id: ''
-      secret_access_key: ''
-      TEST_ACCOUNT_EMAIL: ''
-      TEST_ACCOUNT_PASSWORD: ''
+      TEST_ACCOUNT_EMAIL: '${{ secrets.testUserEmail }}'
+      TEST_ACCOUNT_PASSWORD: '${{ secrets.testUserPassword }}'
