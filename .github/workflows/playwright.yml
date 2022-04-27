@@ -16,4 +16,4 @@ jobs:
           node-version: 14 
 
       - name: Install dependencies and run tests
-        run: npx playwright install-deps && npm test
+        run: npx playwright install-deps && npm run test
