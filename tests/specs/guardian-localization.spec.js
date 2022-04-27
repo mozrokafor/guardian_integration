@@ -9,6 +9,7 @@ const supportedLanguages = [
 
 // C1538760 - Verify that error page is available in new regions 
 test.describe('guardian localization', () => {
+    test.use({ viewport: { width: 1920, height: 1080 } });
     for (const language of supportedLanguages){
         test.describe(`${language.timezoneId} - https://vpn.mozilla.org/vpn/download`, () => {
             test.use({ locale: language.locale, timezoneId: language.timezoneId  })
