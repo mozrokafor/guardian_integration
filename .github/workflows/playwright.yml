@@ -20,5 +20,4 @@ jobs:
             npm install
             npm install -D @playwright/test --with-deps
             npx playwright install
-            npx playwright install-deps
             npm run test       
