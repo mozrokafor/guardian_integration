@@ -25,11 +25,14 @@ on:
 
 jobs:
   trigger-e2e-suite:
+  - uses: actions/checkout@v2
+  - uses: actions/setup-node@v2
+  
     with:
       project-directory: '.'
       baseUrl: '${{ secrets.testBaseUrl }}'      
       times: '${{ secrets.testRetries }}'
     
-    secrets:
+  - secrets:
       TEST_ACCOUNT_EMAIL: '${{ secrets.testUserEmail }}'
       TEST_ACCOUNT_PASSWORD: '${{ secrets.testUserPassword }}'
