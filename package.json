@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test tests/specs/guardian-redirects.spec.js",
+    "test": "npx playwright test tests/specs/guardian-localization-urls.spec.js",
     "test:update": "npx playwright test --update-snapshots",
     "test:debug": "PWDEBUG=1 DEBUG=pw:api npm run test",
     "test:inspect": "npx playwright test --debug",
