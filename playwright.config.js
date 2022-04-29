@@ -35,7 +35,7 @@ const config = {
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     [process.env.CI ? 'github' : 'list'],
-    // ['allure-playwright'],
+    ['allure-playwright'],
     // ['json', {  outputFile: 'test-results.json' }],
     // ['./tests/utils/custom-reporter.js']
   ],
@@ -45,6 +45,9 @@ const config = {
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
+
+    // failure behavior
+    screenshot: 'only-on-failure',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -58,12 +61,12 @@ const config = {
         ...devices['Desktop Chrome'],
       },
     },
-    {
-      name: 'firefox',
-      use: {
-        ...devices['Desktop Firefox'],
-      },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: {
+    //     ...devices['Desktop Firefox'],
+    //   },
+    // },
     // {
     //   name: 'webkit',
     //   use: {

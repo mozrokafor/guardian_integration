@@ -17,11 +17,11 @@ on:
           options:
             - 'stage'
             - 'prod'
-          times:
-            description: Number of times to repeat the test suite entirely
-            required: false
-            default: '1'
-            type: string
+        times:
+          description: Number of times to repeat the test suite entirely
+          required: false
+          default: '1'
+          type: string
 
 jobs:
   trigger-e2e-suite:
