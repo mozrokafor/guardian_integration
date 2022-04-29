@@ -1,4 +1,3 @@
-// @ts-check
 const { test, expect } = require('@playwright/test');
 
 const supportedLanguages = [
@@ -8,7 +7,7 @@ const supportedLanguages = [
 
 
 // C1538760 - Verify that error page is available in new regions 
-test.describe('guardian localization', () => {
+test.describe('guardian localization, C1538760', () => {
     test.use({ viewport: { width: 1920, height: 1080 } });
     for (const language of supportedLanguages){
         test.describe(`${language.timezoneId} - https://vpn.mozilla.org/vpn/download`, () => {

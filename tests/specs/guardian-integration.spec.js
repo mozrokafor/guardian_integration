@@ -1,6 +1,4 @@
-// @ts-check
 const { test, expect } = require('@playwright/test');
-const { delay } = require('../utils/helpers');
 
 test.describe('guardian integration', () => {    
     test.describe('has sbuscription should redirect to downloads page', () => {   

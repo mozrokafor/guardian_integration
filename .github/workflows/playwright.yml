@@ -18,9 +18,10 @@ jobs:
       with:
         node-version: '14'
         cache: 'npm'
-    - run: npm ci
+    - run: npm install
+    - run: npm install -D @playwright/test --with-deps
     - run: npx playwright install
-    - run: npm test
+    - run: npm test  
   
     - uses: actions/upload-artifact@master
       with:
