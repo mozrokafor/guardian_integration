@@ -1,0 +1,131 @@
+[ {
+  "uid" : "c6dc9e260e7d8f8c",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252916011,
+    "stop" : 1651252917691,
+    "duration" : 1680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1ffd36ec4f7c596",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252919223,
+    "stop" : 1651252920739,
+    "duration" : 1516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c7903fe59daa62d",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252911809,
+    "stop" : 1651252913857,
+    "duration" : 2048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79a5223ef0a7c7f0",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252908099,
+    "stop" : 1651252909919,
+    "duration" : 1820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f40afa40cd2248d",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252913858,
+    "stop" : 1651252916011,
+    "duration" : 2153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e16669db1932847",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252897699,
+    "stop" : 1651252899913,
+    "duration" : 2214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a2e9bc2a611a547",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252917692,
+    "stop" : 1651252919222,
+    "duration" : 1530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95d1bc8f5af1129e",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252904968,
+    "stop" : 1651252908098,
+    "duration" : 3130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea8928d5c7495a37",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252901695,
+    "stop" : 1651252903396,
+    "duration" : 1701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3c21e3dec3aff48",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252909919,
+    "stop" : 1651252911809,
+    "duration" : 1890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76075f06de3977a8",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252899914,
+    "stop" : 1651252901694,
+    "duration" : 1780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "775a67e685e8f255",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252903396,
+    "stop" : 1651252904967,
+    "duration" : 1571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "927bd92c20076e1d",
+  "name" : "Verify locale handling in undefined",
+  "time" : {
+    "start" : 1651252920739,
+    "stop" : 1651252922905,
+    "duration" : 2166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

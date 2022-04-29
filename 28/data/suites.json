@@ -1,0 +1,234 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "guardian-localization-urls.spec.js",
+      "children" : [ {
+        "name" : "guardian localization by urls > Austria - https://www.mozilla.org/de/products/vpn/?geo=at",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "5e16669db1932847",
+          "parentUid" : "be30eb2a8bd924b0ccc0ef89afee398e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252897699,
+            "stop" : 1651252899913,
+            "duration" : 2214
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "be30eb2a8bd924b0ccc0ef89afee398e"
+      }, {
+        "name" : "guardian localization by urls > Belgium - https://www.mozilla.org/nl/products/vpn/?geo=be",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "76075f06de3977a8",
+          "parentUid" : "65a98dc39581b5791a7d9bc02b4900e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252899914,
+            "stop" : 1651252901694,
+            "duration" : 1780
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "65a98dc39581b5791a7d9bc02b4900e1"
+      }, {
+        "name" : "guardian localization by urls > Canada - https://www.mozilla.org/en-US/products/vpn/?geo=ca",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "ea8928d5c7495a37",
+          "parentUid" : "bcd1de88e4fc391b3c1fd9e0e65ac24d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252901695,
+            "stop" : 1651252903396,
+            "duration" : 1701
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bcd1de88e4fc391b3c1fd9e0e65ac24d"
+      }, {
+        "name" : "guardian localization by urls > Switzerland - https://www.mozilla.org/de/products/vpn/?geo=ch",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "775a67e685e8f255",
+          "parentUid" : "c558517d1e241f0bafdadf96d254a44b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252903396,
+            "stop" : 1651252904967,
+            "duration" : 1571
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c558517d1e241f0bafdadf96d254a44b"
+      }, {
+        "name" : "guardian localization by urls > Germany - https://www.mozilla.org/de/products/vpn/?geo=de",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "95d1bc8f5af1129e",
+          "parentUid" : "2da3948d372fdce76dfdf13ea3f70994",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252904968,
+            "stop" : 1651252908098,
+            "duration" : 3130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2da3948d372fdce76dfdf13ea3f70994"
+      }, {
+        "name" : "guardian localization by urls > Spain - https://www.mozilla.org/es-US/products/vpn/?geo=es",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "79a5223ef0a7c7f0",
+          "parentUid" : "7f434c8ec8fd88fc0398665b7ad4c24f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252908099,
+            "stop" : 1651252909919,
+            "duration" : 1820
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7f434c8ec8fd88fc0398665b7ad4c24f"
+      }, {
+        "name" : "guardian localization by urls > France - https://www.mozilla.org/fr/products/vpn/?geo=fr",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "a3c21e3dec3aff48",
+          "parentUid" : "96018a3796c89ff057dd43fdb02f3b6d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252909919,
+            "stop" : 1651252911809,
+            "duration" : 1890
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "96018a3796c89ff057dd43fdb02f3b6d"
+      }, {
+        "name" : "guardian localization by urls > UK - https://www.mozilla.org/en-US/products/vpn/?geo=gb",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "8c7903fe59daa62d",
+          "parentUid" : "c6f5b2dca892356e52d01441172f5fa2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252911809,
+            "stop" : 1651252913857,
+            "duration" : 2048
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c6f5b2dca892356e52d01441172f5fa2"
+      }, {
+        "name" : "guardian localization by urls > Italy - https://www.mozilla.org/it/products/vpn/?geo=it",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "f40afa40cd2248d",
+          "parentUid" : "ec334dc21da9d53794ac98ce2f61ef3e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252913858,
+            "stop" : 1651252916011,
+            "duration" : 2153
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ec334dc21da9d53794ac98ce2f61ef3e"
+      }, {
+        "name" : "guardian localization by urls > Malaysia - https://www.mozilla.org/en-US/products/vpn/?geo=my",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "c6dc9e260e7d8f8c",
+          "parentUid" : "69404147184269e3c6c08236cd6f1f8a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252916011,
+            "stop" : 1651252917691,
+            "duration" : 1680
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "69404147184269e3c6c08236cd6f1f8a"
+      }, {
+        "name" : "guardian localization by urls > New Zealand - https://www.mozilla.org/en-US/products/vpn/?geo=nz",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "1a2e9bc2a611a547",
+          "parentUid" : "942df2560eefbc1a91ad2d617726f8a8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252917692,
+            "stop" : 1651252919222,
+            "duration" : 1530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "942df2560eefbc1a91ad2d617726f8a8"
+      }, {
+        "name" : "guardian localization by urls > Singapore - https://www.mozilla.org/en-US/products/vpn/?geo=sg",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "a1ffd36ec4f7c596",
+          "parentUid" : "fb7df50a83b26624d4007de8c23a79cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252919223,
+            "stop" : 1651252920739,
+            "duration" : 1516
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fb7df50a83b26624d4007de8c23a79cb"
+      }, {
+        "name" : "guardian localization by urls > United States - https://www.mozilla.org/en-US/products/vpn/?geo=US",
+        "children" : [ {
+          "name" : "Verify locale handling in undefined",
+          "uid" : "927bd92c20076e1d",
+          "parentUid" : "a28d088acb298a2c82c29cb0e6e7b935",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651252920739,
+            "stop" : 1651252922905,
+            "duration" : 2166
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a28d088acb298a2c82c29cb0e6e7b935"
+      } ],
+      "uid" : "733ad4e493f4a4232ce4792732dc876e"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ],
+  "name" : "suites"
+}
