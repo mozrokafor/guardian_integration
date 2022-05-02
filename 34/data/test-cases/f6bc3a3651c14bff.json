@@ -1,0 +1,552 @@
+{
+  "uid" : "f6bc3a3651c14bff",
+  "name" : "Verify locale handling in United States for payment page",
+  "fullName" : "Verify locale handling in United States for payment page",
+  "historyId" : "firefox specs/guardian-basics-payments.spec.js guardian basics Verify locale handling in United States for payment page",
+  "time" : {
+    "start" : 1651532212374,
+    "stop" : 1651532240450,
+    "duration" : 28076
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651532212374,
+        "stop" : 1651532237082,
+        "duration" : 24708
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532212374,
+          "stop" : 1651532216316,
+          "duration" : 3942
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651532212511,
+            "stop" : 1651532213655,
+            "duration" : 1144
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/de/products/vpn/?geo=at)",
+          "time" : {
+            "start" : 1651532213655,
+            "stop" : 1651532216316,
+            "duration" : 2661
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532216316,
+          "stop" : 1651532218236,
+          "duration" : 1920
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/nl/products/vpn/?geo=be)",
+          "time" : {
+            "start" : 1651532216316,
+            "stop" : 1651532218236,
+            "duration" : 1920
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532218236,
+          "stop" : 1651532220138,
+          "duration" : 1902
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=ca)",
+          "time" : {
+            "start" : 1651532218236,
+            "stop" : 1651532220138,
+            "duration" : 1902
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532220138,
+          "stop" : 1651532222128,
+          "duration" : 1990
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/de/products/vpn/?geo=ch)",
+          "time" : {
+            "start" : 1651532220138,
+            "stop" : 1651532222128,
+            "duration" : 1990
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532222128,
+          "stop" : 1651532223616,
+          "duration" : 1488
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/de/products/vpn/?geo=de)",
+          "time" : {
+            "start" : 1651532222129,
+            "stop" : 1651532223616,
+            "duration" : 1487
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532223616,
+          "stop" : 1651532225463,
+          "duration" : 1847
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/es-US/products/vpn/?geo=es)",
+          "time" : {
+            "start" : 1651532223616,
+            "stop" : 1651532225463,
+            "duration" : 1847
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532225463,
+          "stop" : 1651532227315,
+          "duration" : 1852
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/fr/products/vpn/?geo=fr)",
+          "time" : {
+            "start" : 1651532225463,
+            "stop" : 1651532227315,
+            "duration" : 1852
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532227315,
+          "stop" : 1651532229021,
+          "duration" : 1706
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=gb)",
+          "time" : {
+            "start" : 1651532227315,
+            "stop" : 1651532229021,
+            "duration" : 1706
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532229021,
+          "stop" : 1651532231618,
+          "duration" : 2597
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/it/products/vpn/?geo=it)",
+          "time" : {
+            "start" : 1651532229021,
+            "stop" : 1651532231618,
+            "duration" : 2597
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532231618,
+          "stop" : 1651532232870,
+          "duration" : 1252
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=my)",
+          "time" : {
+            "start" : 1651532231618,
+            "stop" : 1651532232870,
+            "duration" : 1252
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532232870,
+          "stop" : 1651532234247,
+          "duration" : 1377
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=nz)",
+          "time" : {
+            "start" : 1651532232876,
+            "stop" : 1651532234247,
+            "duration" : 1371
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532234247,
+          "stop" : 1651532235524,
+          "duration" : 1277
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=sg)",
+          "time" : {
+            "start" : 1651532234247,
+            "stop" : 1651532235524,
+            "duration" : 1277
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651532235524,
+          "stop" : 1651532237082,
+          "duration" : 1558
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=US)",
+          "time" : {
+            "start" : 1651532235525,
+            "stop" : 1651532237082,
+            "duration" : 1557
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 27,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(a.js-vpn-cta-link:nth-child(4))",
+      "time" : {
+        "start" : 1651532237083,
+        "stop" : 1651532238701,
+        "duration" : 1618
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1651532237084,
+        "stop" : 1651532240218,
+        "duration" : 3134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContain",
+      "time" : {
+        "start" : 1651532240218,
+        "stop" : 1651532240218,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651532240218,
+        "stop" : 1651532240450,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651532240401,
+          "stop" : 1651532240449,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 33,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-basics-payments.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian basics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6bc3a3651c14bff.json",
+  "parameterValues" : [ ]
+}
