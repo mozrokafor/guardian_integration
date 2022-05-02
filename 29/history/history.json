@@ -1,0 +1,379 @@
+{
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Canada - https://www.mozilla.org/en-US/products/vpn/?geo=ca Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7cc96a77ff576498",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/7cc96a77ff576498",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460696867,
+        "stop" : 1651460698584,
+        "duration" : 1717
+      }
+    }, {
+      "uid" : "ea8928d5c7495a37",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/ea8928d5c7495a37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252901695,
+        "stop" : 1651252903396,
+        "duration" : 1701
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls United States - https://www.mozilla.org/en-US/products/vpn/?geo=US Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "375d86d9e20215f3",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/375d86d9e20215f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460715581,
+        "stop" : 1651460717201,
+        "duration" : 1620
+      }
+    }, {
+      "uid" : "927bd92c20076e1d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/927bd92c20076e1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252920739,
+        "stop" : 1651252922905,
+        "duration" : 2166
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Malaysia - https://www.mozilla.org/en-US/products/vpn/?geo=my Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d7a563893d8a4cf0",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/d7a563893d8a4cf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460710602,
+        "stop" : 1651460712250,
+        "duration" : 1648
+      }
+    }, {
+      "uid" : "c6dc9e260e7d8f8c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/c6dc9e260e7d8f8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252916011,
+        "stop" : 1651252917691,
+        "duration" : 1680
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Singapore - https://www.mozilla.org/en-US/products/vpn/?geo=sg Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e1ecd79521a68868",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/e1ecd79521a68868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460713849,
+        "stop" : 1651460715580,
+        "duration" : 1731
+      }
+    }, {
+      "uid" : "a1ffd36ec4f7c596",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/a1ffd36ec4f7c596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252919223,
+        "stop" : 1651252920739,
+        "duration" : 1516
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Switzerland - https://www.mozilla.org/de/products/vpn/?geo=ch Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8797b41701359e30",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/8797b41701359e30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460698584,
+        "stop" : 1651460700767,
+        "duration" : 2183
+      }
+    }, {
+      "uid" : "775a67e685e8f255",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/775a67e685e8f255",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252903396,
+        "stop" : 1651252904967,
+        "duration" : 1571
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Germany - https://www.mozilla.org/de/products/vpn/?geo=de Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c52c8c41e0d6098",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/c52c8c41e0d6098",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460700767,
+        "stop" : 1651460702868,
+        "duration" : 2101
+      }
+    }, {
+      "uid" : "95d1bc8f5af1129e",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/95d1bc8f5af1129e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252904968,
+        "stop" : 1651252908098,
+        "duration" : 3130
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls France - https://www.mozilla.org/fr/products/vpn/?geo=fr Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d17e2398d44b9c21",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/d17e2398d44b9c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460704884,
+        "stop" : 1651460706649,
+        "duration" : 1765
+      }
+    }, {
+      "uid" : "a3c21e3dec3aff48",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/a3c21e3dec3aff48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252909919,
+        "stop" : 1651252911809,
+        "duration" : 1890
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Italy - https://www.mozilla.org/it/products/vpn/?geo=it Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "df0334f2bcf82154",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/df0334f2bcf82154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460708266,
+        "stop" : 1651460710602,
+        "duration" : 2336
+      }
+    }, {
+      "uid" : "f40afa40cd2248d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/f40afa40cd2248d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252913858,
+        "stop" : 1651252916011,
+        "duration" : 2153
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Austria - https://www.mozilla.org/de/products/vpn/?geo=at Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2ac854ab271a6d9e",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/2ac854ab271a6d9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460691306,
+        "stop" : 1651460694739,
+        "duration" : 3433
+      }
+    }, {
+      "uid" : "5e16669db1932847",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/5e16669db1932847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252897699,
+        "stop" : 1651252899913,
+        "duration" : 2214
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Spain - https://www.mozilla.org/es-US/products/vpn/?geo=es Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "41670567b8abffb7",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/41670567b8abffb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460702868,
+        "stop" : 1651460704883,
+        "duration" : 2015
+      }
+    }, {
+      "uid" : "79a5223ef0a7c7f0",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/79a5223ef0a7c7f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252908099,
+        "stop" : 1651252909919,
+        "duration" : 1820
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls UK - https://www.mozilla.org/en-US/products/vpn/?geo=gb Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1e425ed3be4871dc",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/1e425ed3be4871dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460706649,
+        "stop" : 1651460708265,
+        "duration" : 1616
+      }
+    }, {
+      "uid" : "8c7903fe59daa62d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/8c7903fe59daa62d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252911809,
+        "stop" : 1651252913857,
+        "duration" : 2048
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls Belgium - https://www.mozilla.org/nl/products/vpn/?geo=be Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "93d4a42858928134",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/93d4a42858928134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460694741,
+        "stop" : 1651460696866,
+        "duration" : 2125
+      }
+    }, {
+      "uid" : "76075f06de3977a8",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/76075f06de3977a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252899914,
+        "stop" : 1651252901694,
+        "duration" : 1780
+      }
+    } ]
+  },
+  "chromium guardian-localization-urls.spec.js guardian localization by urls New Zealand - https://www.mozilla.org/en-US/products/vpn/?geo=nz Verify locale handling in undefined" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ce0063112507c290",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/ce0063112507c290",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651460712251,
+        "stop" : 1651460713849,
+        "duration" : 1598
+      }
+    }, {
+      "uid" : "1a2e9bc2a611a547",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/28//#testresult/1a2e9bc2a611a547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651252917692,
+        "stop" : 1651252919222,
+        "duration" : 1530
+      }
+    } ]
+  }
+}

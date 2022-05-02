@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://mozrokafor.github.io/guardian_integration",
+  "buildOrder" : 29,
+  "buildName" : "GitHub Actions Run #2256111498",
+  "buildUrl" : "https://github.com/mozrokafor/guardian_integration/actions/runs/2256111498",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://mozrokafor.github.io/guardian_integration/29/"
+} ]
