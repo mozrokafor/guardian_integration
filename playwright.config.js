@@ -1,5 +1,5 @@
 // @ts-check
-const { devices } = require('@playwright/test');
+const { devices } = require('@playwright/test')
 
 /**
  * Read environment variables from file.
@@ -7,13 +7,12 @@ const { devices } = require('@playwright/test');
  */
 // require('dotenv').config();
 
-
 /**
  * @see https://playwright.dev/docs/test-configuration
  * @type {import('@playwright/test').PlaywrightTestConfig}
  */
 const config = {
-  testDir: './tests/specs',
+  testDir: 'tests/specs',
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
@@ -21,17 +20,17 @@ const config = {
      * Maximum time expect() should wait for the condition to be met.
      * For example in `await expect(locator).toHaveText();`
      */
-    timeout: 10000,          
-    toMatchSnapshot: {      
-      threshold: 0.8
-    },    
+    timeout: 10000,
+    toMatchSnapshot: {
+      threshold: 0.3,
+    },
   },
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 2 : undefined,
+  workers: process.env.CI ? 2 : 2,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     [process.env.CI ? 'github' : 'list'],
@@ -111,6 +110,6 @@ const config = {
   //   command: 'npm run start',
   //   port: 3000,
   // },
-};
+}
 
-module.exports = config;
+module.exports = config
