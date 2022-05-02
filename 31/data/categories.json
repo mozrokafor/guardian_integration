@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "locator.fill: value: expected string, got undefined",
+      "children" : [ {
+        "name" : "Should be able to login to VPN via website",
+        "uid" : "208d4785c6020194",
+        "parentUid" : "cd92cbd4f00c2814ae7e383a4720f872",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651526628212,
+          "stop" : 1651526634653,
+          "duration" : 6441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd92cbd4f00c2814ae7e383a4720f872"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
