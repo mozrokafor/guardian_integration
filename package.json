@@ -23,7 +23,8 @@
     "allure-playwright": "^2.0.0-beta.16"
   },
   "dependencies": {
-    "axe-playwright": "^1.1.11"
+    "axe-playwright": "^1.1.11",
+    "dotenv": "^16.0.0"
   },
   "directories": {
     "test": "tests"
