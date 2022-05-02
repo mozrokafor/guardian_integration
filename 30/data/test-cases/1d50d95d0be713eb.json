@@ -1,0 +1,254 @@
+{
+  "uid" : "1d50d95d0be713eb",
+  "name" : "Should be able to login to VPN via website",
+  "fullName" : "Should be able to login to VPN via website",
+  "historyId" : "chromium specs/guardian-integration.spec.js guardian integration has a valid subscription Should be able to login to VPN via website",
+  "time" : {
+    "start" : 1651514362946,
+    "stop" : 1651514368670,
+    "duration" : 5724
+  },
+  "status" : "failed",
+  "statusMessage" : "locator.fill: value: expected string, got undefined",
+  "statusTrace" : "locator.fill: value: expected string, got undefined\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-integration.spec.js:38:36\n    at /home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:385:9\n    at TestInfoImpl._runFn (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/testInfo.js:176:7)\n    at /home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:341:26\n    at TimeoutManager.runWithTimeout (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/timeoutManager.js:72:7)\n    at TestInfoImpl._runWithTimeout (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/testInfo.js:164:26)\n    at WorkerRunner._runTest (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:323:5)\n    at WorkerRunner.runTestGroup (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:196:11)\n    at process.<anonymous> (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/worker.js:94:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "locator.fill: value: expected string, got undefined",
+    "statusTrace" : "locator.fill: value: expected string, got undefined\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-integration.spec.js:38:36\n    at /home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:385:9\n    at TestInfoImpl._runFn (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/testInfo.js:176:7)\n    at /home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:341:26\n    at TimeoutManager.runWithTimeout (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/timeoutManager.js:72:7)\n    at TestInfoImpl._runWithTimeout (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/testInfo.js:164:26)\n    at WorkerRunner._runTest (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:323:5)\n    at WorkerRunner.runTestGroup (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/workerRunner.js:196:11)\n    at process.<anonymous> (/home/runner/work/guardian_integration/guardian_integration/node_modules/@playwright/test/lib/worker.js:94:5)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651514362946,
+        "stop" : 1651514363696,
+        "duration" : 750
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651514362947,
+          "stop" : 1651514363696,
+          "duration" : 749
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651514363156,
+            "stop" : 1651514363202,
+            "duration" : 46
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/)",
+          "time" : {
+            "start" : 1651514363205,
+            "stop" : 1651514363695,
+            "duration" : 490
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(a.js-vpn-cta-link:nth-child(4))",
+      "time" : {
+        "start" : 1651514363697,
+        "stop" : 1651514364006,
+        "duration" : 309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1651514363699,
+        "stop" : 1651514367036,
+        "duration" : 3337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(.sign-in-copy > a:nth-child(1))",
+      "time" : {
+        "start" : 1651514367036,
+        "stop" : 1651514367343,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1651514367037,
+        "stop" : 1651514368409,
+        "duration" : 1372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.fill(.email)",
+      "time" : {
+        "start" : 1651514368410,
+        "stop" : 1651514368410,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651514368410,
+        "stop" : 1651514368670,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651514368535,
+          "stop" : 1651514368607,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9d1bf4363f483bd5",
+      "name" : "screenshot",
+      "source" : "9d1bf4363f483bd5.png",
+      "type" : "image/png",
+      "size" : 69625
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-integration.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian integration > has a valid subscription"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "decae8c9ce4ba37b",
+      "status" : "failed",
+      "statusDetails" : "locator.fill: value: expected string, got undefined",
+      "time" : {
+        "start" : 1651514356128,
+        "stop" : 1651514362586,
+        "duration" : 6458
+      }
+    }, {
+      "uid" : "e334eb7590b91a0e",
+      "status" : "failed",
+      "statusDetails" : "locator.fill: value: expected string, got undefined",
+      "time" : {
+        "start" : 1651514350275,
+        "stop" : 1651514355707,
+        "duration" : 5432
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1d50d95d0be713eb.json",
+  "parameterValues" : [ ]
+}
