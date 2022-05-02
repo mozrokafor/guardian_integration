@@ -15,7 +15,7 @@ test.describe('guardian localization by urls, C1538754, C1601703', () => {
           )
         })
 
-        test(`Verify locale handling in ${locale.timezoneId}`, async ({ page }) => {
+        test(`Verify locale handling in ${locale.name}`, async ({ page }) => {
           const pricingTables = await page.locator('#pricing .vpn-content-block').count()
           expect(pricingTables).toEqual(3)
 
