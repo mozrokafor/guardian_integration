@@ -21,6 +21,10 @@ jobs:
       - run: npm install -D @playwright/test --with-deps
       - run: npx playwright install
       - run: npm test
+        env:
+          CI: true
+          TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
+          TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
 
       - uses: actions/upload-artifact@master
         with:
