@@ -24,25 +24,27 @@ test.describe('guardian integration', () => {
     })
 
     test('Should be able to login to VPN via website', async ({ page }) => {
-      await Promise.all([
-        page.locator('a.js-vpn-cta-link:nth-child(4)').click(),
-        page.waitForNavigation({ waitUntil: 'networkidle' }),
-      ])
-      await Promise.all([
-        page.locator('.sign-in-copy > a:nth-child(1)').click(),
-        page.waitForNavigation({ waitUntil: 'networkidle' }),
-      ])
-      // page.on('request', request => console.log('>>', request.method(), request.url()));
-      // page.on('response', response => console.log('<<', response.status(), response.url()));
+      if (testInfo.project.use.defaultBrowserType !== 'firefox') {
+        await Promise.all([
+          page.locator('a.js-vpn-cta-link:nth-child(4)').click(),
+          page.waitForNavigation({ waitUntil: 'networkidle' }),
+        ])
+        await Promise.all([
+          page.locator('.sign-in-copy > a:nth-child(1)').click(),
+          page.waitForNavigation({ waitUntil: 'networkidle' }),
+        ])
+        // page.on('request', request => console.log('>>', request.method(), request.url()));
+        // page.on('response', response => console.log('<<', response.status(), response.url()));
 
-      await page.locator('.email').fill(process.env.TESTACCOUNT_EMAIL)
-      await page.locator('#submit-btn').click()
-      await page.locator('#password').type(process.env.TESTACCOUNT_PASSWORD)
-      await Promise.all([
-        page.locator('#submit-btn').click(),
-        page.waitForNavigation({ waitUntil: 'networkidle' }),
-      ])
-      expect(page.url()).toContain('accounts.firefox.com')
+        await page.locator('.email').fill(process.env.TESTACCOUNT_EMAIL)
+        await page.locator('#submit-btn').click()
+        await page.locator('#password').type(process.env.TESTACCOUNT_PASSWORD)
+        await Promise.all([
+          page.locator('#submit-btn').click(),
+          page.waitForNavigation({ waitUntil: 'networkidle' }),
+        ])
+        expect(page.url()).toContain('accounts.firefox.com')
+      }
     })
   })
 })
