@@ -1,0 +1,1 @@
+/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/United-States-terms-chromium-linux.png is missing in snapshots, writing actual.

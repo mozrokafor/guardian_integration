@@ -1,0 +1,1 @@
+/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/United-States-privacy-firefox-linux.png is missing in snapshots, writing actual.

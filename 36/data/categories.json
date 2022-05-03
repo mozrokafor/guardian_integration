@@ -1,0 +1,107 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "testInfo is not defined",
+      "children" : [ {
+        "name" : "Should be able to login to VPN via website",
+        "uid" : "2b203e202b6743e8",
+        "parentUid" : "9e84ed6c7b76140759ff708bfe5d9384",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651538679121,
+          "stop" : 1651538680265,
+          "duration" : 1144
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Should be able to login to VPN via website",
+        "uid" : "aaeddf4aed92fb99",
+        "parentUid" : "9e84ed6c7b76140759ff708bfe5d9384",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651539063424,
+          "stop" : 1651539075267,
+          "duration" : 11843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e84ed6c7b76140759ff708bfe5d9384"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"https://subscriptions.firefox.com/checkout\"\nReceived string:    \"https://accounts.firefox.com/subscriptions/products/prod_FvnsFHIfezy3ZI?plan=price_1Iw85dJNcmPzuWtRyhMDdtM7&entrypoint=www.mozilla.org-vpn-product-page&form_type=button&service=e6eb0d1e856335fc&utm_source=www.mozilla.org-vpn-product-page&utm_medium=referral&utm_campaign=vpn-product-page&data_cta_position=pricing&device_id=2e45fc4aacf44868950469d1c2634ed6&flow_begin_time=1651538934667&flow_id=e6507504c3b6c6554bf0c5d69e74156f42f7485c7591ef9face285857fde3815\"",
+      "children" : [ {
+        "name" : "Verify locale handling in Malaysia for payment page",
+        "uid" : "9083d4cae4fd2288",
+        "parentUid" : "7505d4b28f5f207fef95c7bb2b7bdc7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651538915770,
+          "stop" : 1651538938532,
+          "duration" : 22762
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7505d4b28f5f207fef95c7bb2b7bdc7a"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"https://subscriptions.firefox.com/checkout\"\nReceived string:    \"https://accounts.firefox.com/subscriptions/products/prod_FvnsFHIfezy3ZI?plan=price_1Iw85dJNcmPzuWtRyhMDdtM7&entrypoint=www.mozilla.org-vpn-product-page&form_type=button&service=e6eb0d1e856335fc&utm_source=www.mozilla.org-vpn-product-page&utm_medium=referral&utm_campaign=vpn-product-page&data_cta_position=pricing&device_id=df1a9f6aa6444cc89f7c1080108ec6d0&flow_begin_time=1651539019437&flow_id=44e61cf3fd44d2d974ce75d495225b9e23c727ae1904309e95efccd68f6a5602\"",
+      "children" : [ {
+        "name" : "Verify locale handling in New Zealand for payment page",
+        "uid" : "dd29248f462bf658",
+        "parentUid" : "3c1508f0b77287969f188f3c9c65adb6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651538997535,
+          "stop" : 1651539023110,
+          "duration" : 25575
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c1508f0b77287969f188f3c9c65adb6"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"https://subscriptions.firefox.com/checkout\"\nReceived string:    \"https://accounts.firefox.com/subscriptions/products/prod_FvnsFHIfezy3ZI?plan=price_1Iw85dJNcmPzuWtRyhMDdtM7&entrypoint=www.mozilla.org-vpn-product-page&form_type=button&service=e6eb0d1e856335fc&utm_source=www.mozilla.org-vpn-product-page&utm_medium=referral&utm_campaign=vpn-product-page&data_cta_position=pricing&device_id=4c7e92bee05a4dc0b428e07e5adaf694&flow_begin_time=1651539100258&flow_id=aa4b1420f08ae2c04a9dccb72aa8cb947c654ab9147a3dec9a9216a3d5f2d6a4\"",
+      "children" : [ {
+        "name" : "Verify locale handling in Singapore for payment page",
+        "uid" : "dc60a967f31798ac",
+        "parentUid" : "b56603eb27c930f2173919589cbeddf1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651539079699,
+          "stop" : 1651539103967,
+          "duration" : 24268
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b56603eb27c930f2173919589cbeddf1"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"https://subscriptions.firefox.com/checkout\"\nReceived string:    \"https://accounts.firefox.com/subscriptions/products/prod_FvnsFHIfezy3ZI?plan=price_1Iw85dJNcmPzuWtRyhMDdtM7&entrypoint=www.mozilla.org-vpn-product-page&form_type=button&service=e6eb0d1e856335fc&utm_source=www.mozilla.org-vpn-product-page&utm_medium=referral&utm_campaign=vpn-product-page&data_cta_position=pricing&device_id=8501a982493447d7b9ea4e2a000e98f6&flow_begin_time=1651539181341&flow_id=53e818ec3be9520e90cde032770cb275b8c5fe8b1023ca0f305cbe3c4d4d668d\"",
+      "children" : [ {
+        "name" : "Verify locale handling in United States for payment page",
+        "uid" : "5f1eaf14773c7be2",
+        "parentUid" : "10543bfe63f75ec7ef920c5fd89b2e4e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651539162806,
+          "stop" : 1651539184747,
+          "duration" : 21941
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10543bfe63f75ec7ef920c5fd89b2e4e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
