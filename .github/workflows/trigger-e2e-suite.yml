@@ -24,14 +24,14 @@ on:
           type: string
 
 jobs:
-  trigger-e2e-suite:
-    uses: actions/checkout@v2  
-  
+  - trigger-e2e-suite:
+    uses: actions/checkout@v2
+
     with:
       project-directory: '.'
-      baseUrl: '${{ secrets.testBaseUrl }}'      
+      baseUrl: '${{ secrets.testBaseUrl }}'
       times: '${{ secrets.testRetries }}'
-    
+
   - secrets:
       TEST_ACCOUNT_EMAIL: '${{ secrets.testUserEmail }}'
       TEST_ACCOUNT_PASSWORD: '${{ secrets.testUserPassword }}'
