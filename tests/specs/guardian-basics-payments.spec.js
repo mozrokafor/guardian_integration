@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test')
 const { supportedLocales } = require('../fixtures/locales')
 
 // C1538755 - Verify that PN and TOS are translated for each one of the new regions
-test.describe('guardian basics', () => {
+test.describe('guardian basics - payments, ', () => {
   test.use({ viewport: { width: 1980, height: 1080 } })
   for (const locale of supportedLocales) {
     test.describe(`guardian payments locale check for ${locale.name}`, () => {
