@@ -1,0 +1,176 @@
+{
+  "uid" : "9c9fbc47f93d4b12",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/android",
+  "fullName" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/android",
+  "historyId" : "firefox specs/guardian-redirects.spec.js guardian redirects download redirects Verify redirect for https://vpn.mozilla.org/r/vpn/update/android",
+  "time" : {
+    "start" : 1651540524413,
+    "stop" : 1651540529369,
+    "duration" : 4956
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651540524413,
+        "stop" : 1651540524960,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1651540524483,
+          "stop" : 1651540524960,
+          "duration" : 477
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://vpn.mozilla.org/r/vpn/update/android)",
+      "time" : {
+        "start" : 1651540524960,
+        "stop" : 1651540528768,
+        "duration" : 3808
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1651540528768,
+        "stop" : 1651540528768,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651540528768,
+        "stop" : 1651540529369,
+        "duration" : 601
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651540529355,
+          "stop" : 1651540529369,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-redirects.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian redirects > download redirects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "eebc8e416e2ecbf0",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/36//#testresult/eebc8e416e2ecbf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651539207757,
+          "stop" : 1651539215116,
+          "duration" : 7359
+        }
+      }, {
+        "uid" : "263d23550d2fa1c9",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/34//#testresult/263d23550d2fa1c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651532350229,
+          "stop" : 1651532360706,
+          "duration" : 10477
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9c9fbc47f93d4b12.json",
+  "parameterValues" : [ ]
+}
