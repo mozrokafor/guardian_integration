@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9b035838bfa56dca",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9b035838bfa56dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542295162,
+        "stop" : 1651542296848,
+        "duration" : 1686
+      }
+    }, {
       "uid" : "d96e7e64a1ad8c5",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d96e7e64a1ad8c5",
       "status" : "passed",
@@ -51,11 +60,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a2497b2d2cf748b7",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a2497b2d2cf748b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542278702,
+        "stop" : 1651542280911,
+        "duration" : 2209
+      }
+    }, {
       "uid" : "b5fc56f8a3dca7a3",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b5fc56f8a3dca7a3",
       "status" : "passed",
@@ -125,11 +143,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "772ba02e14a1bf58",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/772ba02e14a1bf58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543138896,
+        "stop" : 1651543142877,
+        "duration" : 3981
+      }
+    }, {
       "uid" : "b25a7b201f60635a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b25a7b201f60635a",
       "status" : "passed",
@@ -172,11 +199,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f3b7d6586baddc5",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f3b7d6586baddc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542551883,
+        "stop" : 1651542575925,
+        "duration" : 24042
+      }
+    }, {
       "uid" : "9e67a360bc401ae3",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9e67a360bc401ae3",
       "status" : "passed",
@@ -254,14 +290,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Belgium for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "3898e49885d70f1b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3898e49885d70f1b",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Belgium-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542384967,
+        "stop" : 1651542402754,
+        "duration" : 17787
+      }
+    }, {
       "uid" : "3e5fc253c36d8f65",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3e5fc253c36d8f65",
       "status" : "failed",
@@ -330,14 +376,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Italy for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a1bd2f7a3e68e722",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a1bd2f7a3e68e722",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Italy-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542827865,
+        "stop" : 1651542847930,
+        "duration" : 20065
+      }
+    }, {
       "uid" : "1ce8ea238c6e3011",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/1ce8ea238c6e3011",
       "status" : "failed",
@@ -409,11 +465,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c1d7153d9b7deba0",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c1d7153d9b7deba0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543163384,
+        "stop" : 1651543167000,
+        "duration" : 3616
+      }
+    }, {
       "uid" : "af03d291ab3156c1",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/af03d291ab3156c1",
       "status" : "passed",
@@ -453,14 +518,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Belgium for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "79ae7fe8cafdd80d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/79ae7fe8cafdd80d",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Belgium-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542765296,
+        "stop" : 1651542789202,
+        "duration" : 23906
+      }
+    }, {
       "uid" : "d75ad9e5e0ed069a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d75ad9e5e0ed069a",
       "status" : "failed",
@@ -501,14 +576,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Singapore for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "94b084b0e3ad93be",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/94b084b0e3ad93be",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Singapore-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543037132,
+        "stop" : 1651543056924,
+        "duration" : 19792
+      }
+    }, {
       "uid" : "16235e6f87e56393",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/16235e6f87e56393",
       "status" : "failed",
@@ -580,11 +665,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e7da7b9ec40b9ec7",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e7da7b9ec40b9ec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542300115,
+        "stop" : 1651542302295,
+        "duration" : 2180
+      }
+    }, {
       "uid" : "9d83c69f29793b9f",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9d83c69f29793b9f",
       "status" : "passed",
@@ -624,14 +718,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in France for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a64f7d4c71bee6f2",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a64f7d4c71bee6f2",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/France-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543187985,
+        "stop" : 1651543210232,
+        "duration" : 22247
+      }
+    }, {
       "uid" : "3be28c37e57ffa8b",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3be28c37e57ffa8b",
       "status" : "failed",
@@ -675,11 +779,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e9110f723c2446e2",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e9110f723c2446e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542332573,
+        "stop" : 1651542334271,
+        "duration" : 1698
+      }
+    }, {
       "uid" : "b1b132ad02dec88c",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b1b132ad02dec88c",
       "status" : "passed",
@@ -749,11 +862,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b67dbb6088211c21",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b67dbb6088211c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543123726,
+        "stop" : 1651543130950,
+        "duration" : 7224
+      }
+    }, {
       "uid" : "d486cfd5c0d3698d",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d486cfd5c0d3698d",
       "status" : "passed",
@@ -793,14 +915,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Malaysia for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9590ee103c778395",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9590ee103c778395",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Malaysia-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543380667,
+        "stop" : 1651543399815,
+        "duration" : 19148
+      }
+    }, {
       "uid" : "f1c48c0c1f011846",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f1c48c0c1f011846",
       "status" : "failed",
@@ -844,11 +976,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c8a5771e05e8e990",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c8a5771e05e8e990",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543149406,
+        "stop" : 1651543152476,
+        "duration" : 3070
+      }
+    }, {
       "uid" : "31fbef8c5cea77a6",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/31fbef8c5cea77a6",
       "status" : "passed",
@@ -891,11 +1032,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9b47a6ee68fb761f",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9b47a6ee68fb761f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543155516,
+        "stop" : 1651543159226,
+        "duration" : 3710
+      }
+    }, {
       "uid" : "2a89c26ac5ae2e37",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2a89c26ac5ae2e37",
       "status" : "passed",
@@ -976,11 +1126,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a841c816e1206ab6",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a841c816e1206ab6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542409364,
+        "stop" : 1651542430699,
+        "duration" : 21335
+      }
+    }, {
       "uid" : "782bc0989caf6701",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/782bc0989caf6701",
       "status" : "passed",
@@ -1050,11 +1209,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "6cafbd0d42d35766",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6cafbd0d42d35766",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543170970,
+        "stop" : 1651543174439,
+        "duration" : 3469
+      }
+    }, {
       "uid" : "e0bb3ba6a87762dd",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e0bb3ba6a87762dd",
       "status" : "passed",
@@ -1097,11 +1265,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a6071a0a0cb539c5",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a6071a0a0cb539c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542278690,
+        "stop" : 1651542302938,
+        "duration" : 24248
+      }
+    }, {
       "uid" : "5b5a4339d643f235",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5b5a4339d643f235",
       "status" : "passed",
@@ -1168,14 +1345,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Germany for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "678adebc0f39a3a7",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/678adebc0f39a3a7",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Germany-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542571838,
+        "stop" : 1651542589631,
+        "duration" : 17793
+      }
+    }, {
       "uid" : "c9fea72889fb9426",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c9fea72889fb9426",
       "status" : "failed",
@@ -1247,11 +1434,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "f4016b6e7f7d4b5d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f4016b6e7f7d4b5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542312648,
+        "stop" : 1651542315025,
+        "duration" : 2377
+      }
+    }, {
       "uid" : "1bc41704d8f28f2f",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/1bc41704d8f28f2f",
       "status" : "passed",
@@ -1321,11 +1517,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "177e9bc0b6147ab1",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/177e9bc0b6147ab1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543136425,
+        "stop" : 1651543139262,
+        "duration" : 2837
+      }
+    }, {
       "uid" : "b6259d717de858d4",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b6259d717de858d4",
       "status" : "passed",
@@ -1368,11 +1573,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bb5e550a92b168fb",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/bb5e550a92b168fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542595810,
+        "stop" : 1651542615605,
+        "duration" : 19795
+      }
+    }, {
       "uid" : "9a5917a85cbe6d4a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9a5917a85cbe6d4a",
       "status" : "passed",
@@ -1415,11 +1629,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9de4e972e91c8e20",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9de4e972e91c8e20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543142877,
+        "stop" : 1651543146348,
+        "duration" : 3471
+      }
+    }, {
       "uid" : "1632bd5ef08a966e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/1632bd5ef08a966e",
       "status" : "passed",
@@ -1462,11 +1685,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9f56a948df8e5786",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9f56a948df8e5786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543179692,
+        "stop" : 1651543182834,
+        "duration" : 3142
+      }
+    }, {
       "uid" : "9377cffead3b2162",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9377cffead3b2162",
       "status" : "passed",
@@ -1509,11 +1741,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b656764cb59e853e",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b656764cb59e853e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542469729,
+        "stop" : 1651542488572,
+        "duration" : 18843
+      }
+    }, {
       "uid" : "f063e77c8fa33b8c",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f063e77c8fa33b8c",
       "status" : "passed",
@@ -1556,11 +1797,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8fcab002b7af3f99",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8fcab002b7af3f99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542575927,
+        "stop" : 1651542595808,
+        "duration" : 19881
+      }
+    }, {
       "uid" : "a31af0d20ee2b72",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a31af0d20ee2b72",
       "status" : "passed",
@@ -1600,14 +1850,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in UK for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a27f858b536b14ab",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a27f858b536b14ab",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/UK-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542768319,
+        "stop" : 1651542786508,
+        "duration" : 18189
+      }
+    }, {
       "uid" : "ade4746082078f02",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ade4746082078f02",
       "status" : "failed",
@@ -1705,14 +1965,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Spain for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "7fdc523bb82a8cc1",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7fdc523bb82a8cc1",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Spain-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543076103,
+        "stop" : 1651543106597,
+        "duration" : 30494
+      }
+    }, {
       "uid" : "923ff1c54f5b019d",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/923ff1c54f5b019d",
       "status" : "failed",
@@ -1753,14 +2023,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Switzerland for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "10c832e233832bf",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/10c832e233832bf",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Switzerland-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542504758,
+        "stop" : 1651542522797,
+        "duration" : 18039
+      }
+    }, {
       "uid" : "600ef632a122890e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/600ef632a122890e",
       "status" : "failed",
@@ -1832,11 +2112,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "879207f4788ec2c9",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/879207f4788ec2c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542321981,
+        "stop" : 1651542324057,
+        "duration" : 2076
+      }
+    }, {
       "uid" : "c90220397baf74d1",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c90220397baf74d1",
       "status" : "passed",
@@ -1973,11 +2262,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8e5e0fce2fef4002",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8e5e0fce2fef4002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543166653,
+        "stop" : 1651543169837,
+        "duration" : 3184
+      }
+    }, {
       "uid" : "ac91f37d59a9d214",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ac91f37d59a9d214",
       "status" : "passed",
@@ -2017,14 +2315,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Belgium for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bcb69e2bac92ce43",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/bcb69e2bac92ce43",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Belgium-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542751460,
+        "stop" : 1651542777398,
+        "duration" : 25938
+      }
+    }, {
       "uid" : "291f61ea7488d697",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/291f61ea7488d697",
       "status" : "failed",
@@ -2097,11 +2405,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2353e46f7e40ddf7",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2353e46f7e40ddf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543146542,
+        "stop" : 1651543151819,
+        "duration" : 5277
+      }
+    }, {
       "uid" : "cea98e888f1ddb7",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/cea98e888f1ddb7",
       "status" : "passed",
@@ -2141,14 +2458,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in UK for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "7b70add8abfefbc",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7b70add8abfefbc",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542763162,
+        "stop" : 1651542781927,
+        "duration" : 18765
+      }
+    }, {
       "uid" : "540286debb219c88",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/540286debb219c88",
       "status" : "failed",
@@ -2217,14 +2544,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in UK for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4395e47ef0983256",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4395e47ef0983256",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/UK-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543242770,
+        "stop" : 1651543264020,
+        "duration" : 21250
+      }
+    }, {
       "uid" : "69fc924a92156c6",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/69fc924a92156c6",
       "status" : "failed",
@@ -2297,11 +2634,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a39ed2d4a4818034",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a39ed2d4a4818034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542430703,
+        "stop" : 1651542453356,
+        "duration" : 22653
+      }
+    }, {
       "uid" : "4912184257738085",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4912184257738085",
       "status" : "passed",
@@ -2371,11 +2717,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bf47dfcf3046fa37",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/bf47dfcf3046fa37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542293395,
+        "stop" : 1651542295162,
+        "duration" : 1767
+      }
+    }, {
       "uid" : "b4c8f0ade77887c6",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b4c8f0ade77887c6",
       "status" : "passed",
@@ -2456,11 +2811,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "70e8393971cfcac3",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/70e8393971cfcac3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542306750,
+        "stop" : 1651542308395,
+        "duration" : 1645
+      }
+    }, {
       "uid" : "626688725dd48279",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/626688725dd48279",
       "status" : "passed",
@@ -2503,11 +2867,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "de44d761ea6b11e3",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/de44d761ea6b11e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543157242,
+        "stop" : 1651543162230,
+        "duration" : 4988
+      }
+    }, {
       "uid" : "dd2256ad1d148a07",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/dd2256ad1d148a07",
       "status" : "passed",
@@ -2547,14 +2920,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Germany for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "732c37d27ad0d78d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/732c37d27ad0d78d",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Germany-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543012867,
+        "stop" : 1651543040279,
+        "duration" : 27412
+      }
+    }, {
       "uid" : "21a4f6c8503308a1",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/21a4f6c8503308a1",
       "status" : "failed",
@@ -2598,11 +2981,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "7b4c9ace1f65250f",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7b4c9ace1f65250f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543151819,
+        "stop" : 1651543154808,
+        "duration" : 2989
+      }
+    }, {
       "uid" : "b8846fc3335d681a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b8846fc3335d681a",
       "status" : "passed",
@@ -2645,11 +3037,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "503c769834899314",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/503c769834899314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542330701,
+        "stop" : 1651542332573,
+        "duration" : 1872
+      }
+    }, {
       "uid" : "49775100dc4a6f8f",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/49775100dc4a6f8f",
       "status" : "passed",
@@ -2748,11 +3149,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5b04e0d2b3ed78b5",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5b04e0d2b3ed78b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542531407,
+        "stop" : 1651542551882,
+        "duration" : 20475
+      }
+    }, {
       "uid" : "9b621f69317f3a4e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9b621f69317f3a4e",
       "status" : "passed",
@@ -2792,14 +3202,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Switzerland for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "3a87bfd54feb0f80",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3a87bfd54feb0f80",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Switzerland-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542929950,
+        "stop" : 1651542955354,
+        "duration" : 25404
+      }
+    }, {
       "uid" : "69f69c8774572735",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/69f69c8774572735",
       "status" : "failed",
@@ -2843,11 +3263,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c7b8fbc43b04d9ed",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c7b8fbc43b04d9ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542290363,
+        "stop" : 1651542291809,
+        "duration" : 1446
+      }
+    }, {
       "uid" : "5bfb51add0ca5755",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5bfb51add0ca5755",
       "status" : "passed",
@@ -2890,11 +3319,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4b0e8c531795f45b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4b0e8c531795f45b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542349838,
+        "stop" : 1651542371099,
+        "duration" : 21261
+      }
+    }, {
       "uid" : "fea6c2a571bfdd46",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fea6c2a571bfdd46",
       "status" : "passed",
@@ -2937,11 +3375,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "d1bbf873b4284f83",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d1bbf873b4284f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542316460,
+        "stop" : 1651542317933,
+        "duration" : 1473
+      }
+    }, {
       "uid" : "30f5313fb5999d59",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/30f5313fb5999d59",
       "status" : "passed",
@@ -3011,11 +3458,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a8a6888f9d53129",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a8a6888f9d53129",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543167001,
+        "stop" : 1651543170970,
+        "duration" : 3969
+      }
+    }, {
       "uid" : "959dc20930f18d5a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/959dc20930f18d5a",
       "status" : "passed",
@@ -3058,11 +3514,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "24e98274e3d71227",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/24e98274e3d71227",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543188501,
+        "stop" : 1651543193087,
+        "duration" : 4586
+      }
+    }, {
       "uid" : "7d4943746a3740cd",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7d4943746a3740cd",
       "status" : "passed",
@@ -3102,14 +3567,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in United States for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "fcd91d53d6f0df3",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fcd91d53d6f0df3",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/United-States-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543104861,
+        "stop" : 1651543123267,
+        "duration" : 18406
+      }
+    }, {
       "uid" : "fdfe47fc908c2e5d",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fdfe47fc908c2e5d",
       "status" : "failed",
@@ -3207,14 +3682,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in New Zealand for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8a39313972b32073",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8a39313972b32073",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/New-Zealand-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543443801,
+        "stop" : 1651543463291,
+        "duration" : 19490
+      }
+    }, {
       "uid" : "ca421be7252c676d",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ca421be7252c676d",
       "status" : "failed",
@@ -3258,11 +3743,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "7a65ce1b4eccee76",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7a65ce1b4eccee76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542308396,
+        "stop" : 1651542310868,
+        "duration" : 2472
+      }
+    }, {
       "uid" : "1b5e5d5a966eeea0",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/1b5e5d5a966eeea0",
       "status" : "passed",
@@ -3305,11 +3799,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "173a943253c365ee",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/173a943253c365ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542409915,
+        "stop" : 1651542428554,
+        "duration" : 18639
+      }
+    }, {
       "uid" : "c984c85cc68f3665",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c984c85cc68f3665",
       "status" : "passed",
@@ -3387,14 +3890,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Canada for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "cf819b693076621",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/cf819b693076621",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Canada-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542833339,
+        "stop" : 1651542857803,
+        "duration" : 24464
+      }
+    }, {
       "uid" : "e5fd9775334db66b",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e5fd9775334db66b",
       "status" : "failed",
@@ -3435,14 +3948,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Singapore for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a1e74b6312c765cf",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a1e74b6312c765cf",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Singapore-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543506808,
+        "stop" : 1651543526532,
+        "duration" : 19724
+      }
+    }, {
       "uid" : "ed61a010577a2f05",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ed61a010577a2f05",
       "status" : "failed",
@@ -3486,11 +4009,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a5bb3ed24dc72a59",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a5bb3ed24dc72a59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543124302,
+        "stop" : 1651543132479,
+        "duration" : 8177
+      }
+    }, {
       "uid" : "364bc2338f26f4e4",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/364bc2338f26f4e4",
       "status" : "passed",
@@ -3530,14 +4062,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Switzerland for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "bec0ec77d5754217",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/bec0ec77d5754217",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Switzerland-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542510664,
+        "stop" : 1651542528092,
+        "duration" : 17428
+      }
+    }, {
       "uid" : "5d007baaff732ef0",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5d007baaff732ef0",
       "status" : "failed",
@@ -3609,11 +4151,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "582f60e56a9b203d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/582f60e56a9b203d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542341724,
+        "stop" : 1651542343401,
+        "duration" : 1677
+      }
+    }, {
       "uid" : "ce8f73ea362494f7",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ce8f73ea362494f7",
       "status" : "passed",
@@ -3709,14 +4260,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in France for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "69759f8bd7b81d7c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/69759f8bd7b81d7c",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/France-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542694935,
+        "stop" : 1651542714161,
+        "duration" : 19226
+      }
+    }, {
       "uid" : "c1f288cddd9ca5a1",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c1f288cddd9ca5a1",
       "status" : "failed",
@@ -3785,14 +4346,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Singapore for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "71a8a2cffa00ec46",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/71a8a2cffa00ec46",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Singapore-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543499153,
+        "stop" : 1651543519125,
+        "duration" : 19972
+      }
+    }, {
       "uid" : "c795e5e8d3f1d46a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c795e5e8d3f1d46a",
       "status" : "failed",
@@ -3836,11 +4407,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e4651baf19774072",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e4651baf19774072",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543162230,
+        "stop" : 1651543166653,
+        "duration" : 4423
+      }
+    }, {
       "uid" : "8cc7f1fa25bea4f8",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8cc7f1fa25bea4f8",
       "status" : "passed",
@@ -3883,11 +4463,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "c3c4d420f784f857",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c3c4d420f784f857",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542340027,
+        "stop" : 1651542341724,
+        "duration" : 1697
+      }
+    }, {
       "uid" : "e59fcbd809aadb06",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e59fcbd809aadb06",
       "status" : "passed",
@@ -3954,14 +4543,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Italy for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8c7bb5ce7b9cc68d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8c7bb5ce7b9cc68d",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Italy-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542833213,
+        "stop" : 1651542853106,
+        "duration" : 19893
+      }
+    }, {
       "uid" : "1d678bde220ae12",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/1d678bde220ae12",
       "status" : "failed",
@@ -4071,11 +4670,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "9138ee83aba23775",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9138ee83aba23775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542334271,
+        "stop" : 1651542336205,
+        "duration" : 1934
+      }
+    }, {
       "uid" : "5d9235f2760344c0",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5d9235f2760344c0",
       "status" : "passed",
@@ -4142,14 +4750,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Canada for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8b1d8b3a456d2d9e",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8b1d8b3a456d2d9e",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Canada-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542449693,
+        "stop" : 1651542467249,
+        "duration" : 17556
+      }
+    }, {
       "uid" : "fdb4fff275f09640",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fdb4fff275f09640",
       "status" : "failed",
@@ -4221,11 +4839,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d4bec72bdefd2221",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d4bec72bdefd2221",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543142880,
+        "stop" : 1651543146542,
+        "duration" : 3662
+      }
+    }, {
       "uid" : "95ab194463735e57",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/95ab194463735e57",
       "status" : "passed",
@@ -4268,11 +4895,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "845b045bf416e510",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/845b045bf416e510",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542392301,
+        "stop" : 1651542409914,
+        "duration" : 17613
+      }
+    }, {
       "uid" : "c5370b1ed00bd7f7",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c5370b1ed00bd7f7",
       "status" : "passed",
@@ -4350,14 +4986,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Switzerland for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f613b0b1d577f79d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f613b0b1d577f79d",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Switzerland-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542914030,
+        "stop" : 1651542938186,
+        "duration" : 24156
+      }
+    }, {
       "uid" : "45f5afd4015aae12",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/45f5afd4015aae12",
       "status" : "failed",
@@ -4398,14 +5044,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Spain for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "f6a837b77bf565f8",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f6a837b77bf565f8",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Spain-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542627885,
+        "stop" : 1651542647326,
+        "duration" : 19441
+      }
+    }, {
       "uid" : "45cd2b0c50fad43d",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/45cd2b0c50fad43d",
       "status" : "failed",
@@ -4515,11 +5171,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "cdf025444934952d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/cdf025444934952d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542328743,
+        "stop" : 1651542330701,
+        "duration" : 1958
+      }
+    }, {
       "uid" : "3c11a9502339f291",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3c11a9502339f291",
       "status" : "passed",
@@ -4586,14 +5251,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Austria for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "1ddeff43d6f6031c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/1ddeff43d6f6031c",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Austria-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542684117,
+        "stop" : 1651542708533,
+        "duration" : 24416
+      }
+    }, {
       "uid" : "a877855c909b8855",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a877855c909b8855",
       "status" : "failed",
@@ -4672,14 +5347,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in France for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "48663a8199fafd72",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/48663a8199fafd72",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/France-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543173954,
+        "stop" : 1651543199498,
+        "duration" : 25544
+      }
+    }, {
       "uid" : "a43f51dc393eaa5e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a43f51dc393eaa5e",
       "status" : "failed",
@@ -4720,14 +5405,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Belgium for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "7816e03600df2988",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7816e03600df2988",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Belgium-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542388042,
+        "stop" : 1651542405117,
+        "duration" : 17075
+      }
+    }, {
       "uid" : "b25b0ae5d5bb680",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b25b0ae5d5bb680",
       "status" : "failed",
@@ -4799,11 +5494,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "411dbf9bcc3ce242",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/411dbf9bcc3ce242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542296849,
+        "stop" : 1651542298362,
+        "duration" : 1513
+      }
+    }, {
       "uid" : "89db42db325f85f2",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/89db42db325f85f2",
       "status" : "passed",
@@ -4843,14 +5547,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Canada for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "42c188d8943040e9",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/42c188d8943040e9",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Canada-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542444606,
+        "stop" : 1651542462065,
+        "duration" : 17459
+      }
+    }, {
       "uid" : "a1abc0d90aef69c5",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a1abc0d90aef69c5",
       "status" : "failed",
@@ -4948,14 +5662,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Austria for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "793cd5a82d7ee35c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/793cd5a82d7ee35c",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Austria-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542666703,
+        "stop" : 1651542694896,
+        "duration" : 28193
+      }
+    }, {
       "uid" : "46e63e047086833c",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/46e63e047086833c",
       "status" : "failed",
@@ -4999,11 +5723,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "71db6d6006051c11",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/71db6d6006051c11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542315025,
+        "stop" : 1651542316460,
+        "duration" : 1435
+      }
+    }, {
       "uid" : "ee2a9de2e987ef2f",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ee2a9de2e987ef2f",
       "status" : "passed",
@@ -5111,11 +5844,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "591f83c552ba4680",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/591f83c552ba4680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542511850,
+        "stop" : 1651542531407,
+        "duration" : 19557
+      }
+    }, {
       "uid" : "46f750db377869f4",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/46f750db377869f4",
       "status" : "passed",
@@ -5158,11 +5900,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "6780b3ee703655da",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6780b3ee703655da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543169837,
+        "stop" : 1651543173121,
+        "duration" : 3284
+      }
+    }, {
       "uid" : "63ba37697fd14a09",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/63ba37697fd14a09",
       "status" : "passed",
@@ -5205,11 +5956,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b8541dc5cc243338",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b8541dc5cc243338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543193088,
+        "stop" : 1651543198260,
+        "duration" : 5172
+      }
+    }, {
       "uid" : "ab123bfa9ac3dee4",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ab123bfa9ac3dee4",
       "status" : "passed",
@@ -5278,14 +6038,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in New Zealand for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "14c687e9b8eae161",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/14c687e9b8eae161",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/New-Zealand-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542968043,
+        "stop" : 1651542988120,
+        "duration" : 20077
+      }
+    }, {
       "uid" : "6a3ebecc98b561c8",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6a3ebecc98b561c8",
       "status" : "failed",
@@ -5357,11 +6127,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8b17d23319dab1a5",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8b17d23319dab1a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542554779,
+        "stop" : 1651542582614,
+        "duration" : 27835
+      }
+    }, {
       "uid" : "f9da40dfd7b6b77f",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f9da40dfd7b6b77f",
       "status" : "passed",
@@ -5432,11 +6211,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "fa8b375331b4e381",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fa8b375331b4e381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543173121,
+        "stop" : 1651543176239,
+        "duration" : 3118
+      }
+    }, {
       "uid" : "153b9f3988fe2e29",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/153b9f3988fe2e29",
       "status" : "passed",
@@ -5476,14 +6264,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Italy for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "706494971f00db76",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/706494971f00db76",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Italy-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543308140,
+        "stop" : 1651543327726,
+        "duration" : 19586
+      }
+    }, {
       "uid" : "2a14a13e45925bd6",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2a14a13e45925bd6",
       "status" : "failed",
@@ -5524,14 +6322,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Singapore for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "7363899a4e69c198",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7363899a4e69c198",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Singapore-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543037788,
+        "stop" : 1651543055966,
+        "duration" : 18178
+      }
+    }, {
       "uid" : "5fcff4dc4338ef4b",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5fcff4dc4338ef4b",
       "status" : "failed",
@@ -5600,14 +6408,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Austria for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "5a0e4b56eb537772",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5a0e4b56eb537772",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Austria-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542324894,
+        "stop" : 1651542342810,
+        "duration" : 17916
+      }
+    }, {
       "uid" : "f14fa69a7120d95",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f14fa69a7120d95",
       "status" : "failed",
@@ -5705,14 +6523,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in UK for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "dc75f97f2c5ed56b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/dc75f97f2c5ed56b",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543254753,
+        "stop" : 1651543274140,
+        "duration" : 19387
+      }
+    }, {
       "uid" : "b45c20d8319262d7",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b45c20d8319262d7",
       "status" : "failed",
@@ -5753,14 +6581,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Malaysia for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e6d60c18222eba7d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e6d60c18222eba7d",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Malaysia-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542900912,
+        "stop" : 1651542920521,
+        "duration" : 19609
+      }
+    }, {
       "uid" : "9aeb10752fd487f",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9aeb10752fd487f",
       "status" : "failed",
@@ -5832,11 +6670,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "26445edc88e25578",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/26445edc88e25578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542320236,
+        "stop" : 1651542321980,
+        "duration" : 1744
+      }
+    }, {
       "uid" : "db5f595aeebf77a4",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/db5f595aeebf77a4",
       "status" : "passed",
@@ -5906,11 +6753,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f0fcec1451515c4f",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f0fcec1451515c4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542428554,
+        "stop" : 1651542450803,
+        "duration" : 22249
+      }
+    }, {
       "uid" : "6cb524e931f72a5e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6cb524e931f72a5e",
       "status" : "passed",
@@ -5953,11 +6809,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "fc91d91257af37b0",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fc91d91257af37b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542450804,
+        "stop" : 1651542469728,
+        "duration" : 18924
+      }
+    }, {
       "uid" : "2c4ddece58e35ef3",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2c4ddece58e35ef3",
       "status" : "passed",
@@ -5997,14 +6862,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in United States for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "49da9846881893c9",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/49da9846881893c9",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/United-States-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543104146,
+        "stop" : 1651543122701,
+        "duration" : 18555
+      }
+    }, {
       "uid" : "d7bc14c214a68720",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d7bc14c214a68720",
       "status" : "failed",
@@ -6076,11 +6951,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "10ed72652d022186",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/10ed72652d022186",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542346590,
+        "stop" : 1651542349390,
+        "duration" : 2800
+      }
+    }, {
       "uid" : "7c371e8e06b34c4d",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7c371e8e06b34c4d",
       "status" : "passed",
@@ -6150,11 +7034,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "227fca7a4020b573",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/227fca7a4020b573",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542325627,
+        "stop" : 1651542346783,
+        "duration" : 21156
+      }
+    }, {
       "uid" : "9cd30a39d2d794f1",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9cd30a39d2d794f1",
       "status" : "passed",
@@ -6221,14 +7114,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Germany for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4c414ad44e93a239",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4c414ad44e93a239",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Germany-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542996183,
+        "stop" : 1651543022084,
+        "duration" : 25901
+      }
+    }, {
       "uid" : "a657fa982fba6b51",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a657fa982fba6b51",
       "status" : "failed",
@@ -6272,11 +7175,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "3d6eb8e22bb677c2",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3d6eb8e22bb677c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542336205,
+        "stop" : 1651542338179,
+        "duration" : 1974
+      }
+    }, {
       "uid" : "5263fbe001d1d259",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5263fbe001d1d259",
       "status" : "passed",
@@ -6346,11 +7258,20 @@
       "failed" : 1,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9cbd4bfa86b7a782",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9cbd4bfa86b7a782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543130950,
+        "stop" : 1651543132851,
+        "duration" : 1901
+      }
+    }, {
       "uid" : "a6ef3819d656810",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a6ef3819d656810",
       "status" : "passed",
@@ -6395,11 +7316,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "fd738801df37511b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fd738801df37511b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543182834,
+        "stop" : 1651543186164,
+        "duration" : 3330
+      }
+    }, {
       "uid" : "6de53c90c2af23be",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6de53c90c2af23be",
       "status" : "passed",
@@ -6439,14 +7369,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in United States for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "32608565e5c3a119",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/32608565e5c3a119",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/United-States-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543562381,
+        "stop" : 1651543581832,
+        "duration" : 19451
+      }
+    }, {
       "uid" : "683ca197331679cd",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/683ca197331679cd",
       "status" : "failed",
@@ -6490,11 +7430,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "94b754b1685e9ad5",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/94b754b1685e9ad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542298363,
+        "stop" : 1651542300114,
+        "duration" : 1751
+      }
+    }, {
       "uid" : "d66c91cae337b6cd",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d66c91cae337b6cd",
       "status" : "passed",
@@ -6537,11 +7486,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "3740f4767266c533",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3740f4767266c533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543176239,
+        "stop" : 1651543179692,
+        "duration" : 3453
+      }
+    }, {
       "uid" : "36e839583dc0179d",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/36e839583dc0179d",
       "status" : "passed",
@@ -6584,11 +7542,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f677d04156d781c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f677d04156d781c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542371099,
+        "stop" : 1651542392300,
+        "duration" : 21201
+      }
+    }, {
       "uid" : "5aa1c328b9b936a0",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5aa1c328b9b936a0",
       "status" : "passed",
@@ -6666,14 +7633,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Spain for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2f4323e7400cf4e1",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2f4323e7400cf4e1",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Spain-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543094878,
+        "stop" : 1651543119496,
+        "duration" : 24618
+      }
+    }, {
       "uid" : "a4b093f1454c1f97",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a4b093f1454c1f97",
       "status" : "failed",
@@ -6714,14 +7691,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Austria for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8b0a6d06f45bfae6",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8b0a6d06f45bfae6",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Austria-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542324985,
+        "stop" : 1651542343497,
+        "duration" : 18512
+      }
+    }, {
       "uid" : "7250b33acd24019f",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7250b33acd24019f",
       "status" : "failed",
@@ -6793,11 +7780,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8ab5f1dc2ea5719d",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8ab5f1dc2ea5719d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542317933,
+        "stop" : 1651542320235,
+        "duration" : 2302
+      }
+    }, {
       "uid" : "d7da8adf34ff3fc5",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d7da8adf34ff3fc5",
       "status" : "passed",
@@ -6867,11 +7863,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "cb2abe89cd056120",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/cb2abe89cd056120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542291809,
+        "stop" : 1651542293394,
+        "duration" : 1585
+      }
+    }, {
       "uid" : "91f530011b313779",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/91f530011b313779",
       "status" : "passed",
@@ -6914,11 +7919,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "c94af1b36650b92b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c94af1b36650b92b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542324057,
+        "stop" : 1651542326198,
+        "duration" : 2141
+      }
+    }, {
       "uid" : "d8d2c3026b702c38",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d8d2c3026b702c38",
       "status" : "passed",
@@ -6988,11 +8002,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "6322d793c8629b8",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6322d793c8629b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542310868,
+        "stop" : 1651542312644,
+        "duration" : 1776
+      }
+    }, {
       "uid" : "ad1b0392d70ee5a6",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ad1b0392d70ee5a6",
       "status" : "passed",
@@ -7032,14 +8055,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in New Zealand for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a6e3b815165c3c93",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a6e3b815165c3c93",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/New-Zealand-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543433953,
+        "stop" : 1651543453666,
+        "duration" : 19713
+      }
+    }, {
       "uid" : "46551449bcd09c61",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/46551449bcd09c61",
       "status" : "failed",
@@ -7083,11 +8116,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "72b29c053be4b5aa",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/72b29c053be4b5aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543132480,
+        "stop" : 1651543135838,
+        "duration" : 3358
+      }
+    }, {
       "uid" : "5c0aecd75db075a3",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5c0aecd75db075a3",
       "status" : "passed",
@@ -7127,14 +8169,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Germany for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "15627405dd8db1c3",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/15627405dd8db1c3",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Germany-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542565850,
+        "stop" : 1651542584855,
+        "duration" : 19005
+      }
+    }, {
       "uid" : "4507bf1d96100eb6",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4507bf1d96100eb6",
       "status" : "failed",
@@ -7206,11 +8258,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "50f17ba60b9856bf",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/50f17ba60b9856bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542582614,
+        "stop" : 1651542602878,
+        "duration" : 20264
+      }
+    }, {
       "uid" : "6639f59445d9ba27",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6639f59445d9ba27",
       "status" : "passed",
@@ -7278,14 +8339,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Italy for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4b9078e0dfa80f7c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4b9078e0dfa80f7c",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Italy-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543317446,
+        "stop" : 1651543336832,
+        "duration" : 19386
+      }
+    }, {
       "uid" : "d6d67b2f4f7a2763",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d6d67b2f4f7a2763",
       "status" : "failed",
@@ -7396,11 +8467,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "cde4fbc7a667277b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/cde4fbc7a667277b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543154808,
+        "stop" : 1651543157241,
+        "duration" : 2433
+      }
+    }, {
       "uid" : "9c90208347c77b0",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9c90208347c77b0",
       "status" : "passed",
@@ -7443,11 +8523,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "c6ede73d99cdc811",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/c6ede73d99cdc811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542453356,
+        "stop" : 1651542473364,
+        "duration" : 20008
+      }
+    }, {
       "uid" : "beabdb88b276ca9a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/beabdb88b276ca9a",
       "status" : "passed",
@@ -7517,11 +8606,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "eb25d93b2a677881",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/eb25d93b2a677881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542368008,
+        "stop" : 1651542389354,
+        "duration" : 21346
+      }
+    }, {
       "uid" : "f830d1b7d2f72151",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f830d1b7d2f72151",
       "status" : "passed",
@@ -7591,11 +8689,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5c5495d5f47368e0",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5c5495d5f47368e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542288658,
+        "stop" : 1651542290363,
+        "duration" : 1705
+      }
+    }, {
       "uid" : "e09d746902b5c041",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/e09d746902b5c041",
       "status" : "passed",
@@ -7635,14 +8742,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Spain for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "9e65f36cc84a0833",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/9e65f36cc84a0833",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Spain-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542633020,
+        "stop" : 1651542652708,
+        "duration" : 19688
+      }
+    }, {
       "uid" : "3c7de1f9791de178",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/3c7de1f9791de178",
       "status" : "failed",
@@ -7714,11 +8831,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4fa1bc72b15e66d6",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4fa1bc72b15e66d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543135838,
+        "stop" : 1651543138896,
+        "duration" : 3058
+      }
+    }, {
       "uid" : "284203a2a922803c",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/284203a2a922803c",
       "status" : "passed",
@@ -7787,14 +8913,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in France for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a0ecba48b4b39a0b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a0ecba48b4b39a0b",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/France-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542700574,
+        "stop" : 1651542719172,
+        "duration" : 18598
+      }
+    }, {
       "uid" : "a052b1314dce9d26",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a052b1314dce9d26",
       "status" : "failed",
@@ -7866,11 +9002,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5add20256a8363c1",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/5add20256a8363c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543139262,
+        "stop" : 1651543142880,
+        "duration" : 3618
+      }
+    }, {
       "uid" : "4f23fb6de8c89d50",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4f23fb6de8c89d50",
       "status" : "passed",
@@ -7951,11 +9096,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "f779d638b60a3e44",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f779d638b60a3e44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542602879,
+        "stop" : 1651542625257,
+        "duration" : 22378
+      }
+    }, {
       "uid" : "7d720f77e51bfd64",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7d720f77e51bfd64",
       "status" : "passed",
@@ -8055,11 +9209,20 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "2b270ce6ec440bdf",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2b270ce6ec440bdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542280914,
+        "stop" : 1651542288650,
+        "duration" : 7736
+      }
+    }, {
       "uid" : "36edeb7c6ec3786e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/36edeb7c6ec3786e",
       "status" : "passed",
@@ -8129,14 +9292,24 @@
   },
   "chromium specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Malaysia for terms" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "468da3000966bab1",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/468da3000966bab1",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Malaysia-terms-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542901020,
+        "stop" : 1651542920921,
+        "duration" : 19901
+      }
+    }, {
       "uid" : "dc7a53a8eed369a",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/dc7a53a8eed369a",
       "status" : "failed",
@@ -8208,11 +9381,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "19602d1b8c514ba",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/19602d1b8c514ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543132868,
+        "stop" : 1651543136425,
+        "duration" : 3557
+      }
+    }, {
       "uid" : "f5c18eeeee63401e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f5c18eeeee63401e",
       "status" : "passed",
@@ -8255,11 +9437,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "56ac87309d5dfb4c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/56ac87309d5dfb4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542302938,
+        "stop" : 1651542325626,
+        "duration" : 22688
+      }
+    }, {
       "uid" : "925a012cb1a1f964",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/925a012cb1a1f964",
       "status" : "passed",
@@ -8326,14 +9517,24 @@
   },
   "firefox specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in Malaysia for privacy notice" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8cdf373e5a58b52",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/8cdf373e5a58b52",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Malaysia-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543370349,
+        "stop" : 1651543390291,
+        "duration" : 19942
+      }
+    }, {
       "uid" : "80102d6e01380937",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/80102d6e01380937",
       "status" : "failed",
@@ -8377,11 +9578,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "262b0dea77fc1d69",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/262b0dea77fc1d69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543146349,
+        "stop" : 1651543149406,
+        "duration" : 3057
+      }
+    }, {
       "uid" : "7654708217433c69",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7654708217433c69",
       "status" : "passed",
@@ -8424,11 +9634,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "bdceaecf6d45a18c",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/bdceaecf6d45a18c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542389356,
+        "stop" : 1651542409364,
+        "duration" : 20008
+      }
+    }, {
       "uid" : "fef49487ead43e4b",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/fef49487ead43e4b",
       "status" : "passed",
@@ -8498,11 +9717,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2b15f2bf41c160e2",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2b15f2bf41c160e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543186164,
+        "stop" : 1651543188501,
+        "duration" : 2337
+      }
+    }, {
       "uid" : "734b17c318cf68ee",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/734b17c318cf68ee",
       "status" : "passed",
@@ -8545,11 +9773,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4f0589d998cde6a1",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/4f0589d998cde6a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543159227,
+        "stop" : 1651543163384,
+        "duration" : 4157
+      }
+    }, {
       "uid" : "290602c0cea99c0b",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/290602c0cea99c0b",
       "status" : "passed",
@@ -8589,14 +9826,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in Canada for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a656c2f7ce4f913b",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a656c2f7ce4f913b",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Canada-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542846706,
+        "stop" : 1651542870044,
+        "duration" : 23338
+      }
+    }, {
       "uid" : "ea3a705fb0155a31",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ea3a705fb0155a31",
       "status" : "failed",
@@ -8640,11 +9887,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "54fb42c7597be17a",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/54fb42c7597be17a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542326198,
+        "stop" : 1651542328743,
+        "duration" : 2545
+      }
+    }, {
       "uid" : "98ee86795432b8af",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/98ee86795432b8af",
       "status" : "passed",
@@ -8714,11 +9970,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "6462581e62b02ff6",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/6462581e62b02ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542343408,
+        "stop" : 1651542346590,
+        "duration" : 3182
+      }
+    }, {
       "uid" : "356ab6a61148967e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/356ab6a61148967e",
       "status" : "passed",
@@ -8788,11 +10053,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "26d1fc59f9c716b8",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/26d1fc59f9c716b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651543152477,
+        "stop" : 1651543155516,
+        "duration" : 3039
+      }
+    }, {
       "uid" : "99dd870472a9dad4",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/99dd870472a9dad4",
       "status" : "passed",
@@ -8832,14 +10106,24 @@
   },
   "firefox specs/guardian-basics-terms.spec.js guardian basics, C1538755 Verify locale handling in United States for terms" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f1672a4308b0d785",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/f1672a4308b0d785",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/United-States-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651543571018,
+        "stop" : 1651543589924,
+        "duration" : 18906
+      }
+    }, {
       "uid" : "cf7df611f81c0aad",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/cf7df611f81c0aad",
       "status" : "failed",
@@ -8883,11 +10167,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "143b6d4d935f0eda",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/143b6d4d935f0eda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542488572,
+        "stop" : 1651542511850,
+        "duration" : 23278
+      }
+    }, {
       "uid" : "2e4616a964553c6e",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/2e4616a964553c6e",
       "status" : "passed",
@@ -8930,11 +10223,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "27cbd3b724571be7",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/27cbd3b724571be7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542302296,
+        "stop" : 1651542305057,
+        "duration" : 2761
+      }
+    }, {
       "uid" : "94ec755d06d4f54c",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/94ec755d06d4f54c",
       "status" : "passed",
@@ -8977,11 +10279,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "d10f8cd4edfcdd51",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/d10f8cd4edfcdd51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542515710,
+        "stop" : 1651542535795,
+        "duration" : 20085
+      }
+    }, {
       "uid" : "74a2ca0ea5a669fe",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/74a2ca0ea5a669fe",
       "status" : "passed",
@@ -9052,11 +10363,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b8505a50196e2e69",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b8505a50196e2e69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542305057,
+        "stop" : 1651542306749,
+        "duration" : 1692
+      }
+    }, {
       "uid" : "56e736f0398662ce",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/56e736f0398662ce",
       "status" : "passed",
@@ -9096,14 +10416,24 @@
   },
   "chromium specs/guardian-basics-privacy.spec.js guardian basics Verify locale handling in New Zealand for privacy notice" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "ae391eadea1b4aed",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/ae391eadea1b4aed",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/New-Zealand-privacy-chromium-linux.png is missing in snapshots, writing actual.",
+      "time" : {
+        "start" : 1651542967775,
+        "stop" : 1651542986786,
+        "duration" : 19011
+      }
+    }, {
       "uid" : "11c1f977e135080b",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/11c1f977e135080b",
       "status" : "failed",
@@ -9175,11 +10505,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b424811e22980fc5",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b424811e22980fc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542346784,
+        "stop" : 1651542368007,
+        "duration" : 21223
+      }
+    }, {
       "uid" : "7046debb23aa2d92",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/7046debb23aa2d92",
       "status" : "passed",
@@ -9249,11 +10588,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "a21fa5b01a08dfa4",
+      "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/a21fa5b01a08dfa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651542338179,
+        "stop" : 1651542340027,
+        "duration" : 1848
+      }
+    }, {
       "uid" : "329a07714aa9ced9",
       "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/329a07714aa9ced9",
       "status" : "passed",

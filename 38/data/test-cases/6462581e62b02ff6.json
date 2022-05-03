@@ -1,0 +1,221 @@
+{
+  "uid" : "6462581e62b02ff6",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/ios",
+  "fullName" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/ios",
+  "historyId" : "chromium specs/guardian-redirects.spec.js guardian redirects download redirects Verify redirect for https://vpn.mozilla.org/r/vpn/update/ios",
+  "time" : {
+    "start" : 1651542343408,
+    "stop" : 1651542346590,
+    "duration" : 3182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651542343408,
+        "stop" : 1651542343552,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1651542343416,
+          "stop" : 1651542343552,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://vpn.mozilla.org/r/vpn/update/ios)",
+      "time" : {
+        "start" : 1651542343552,
+        "stop" : 1651542346368,
+        "duration" : 2816
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1651542346368,
+        "stop" : 1651542346368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651542346368,
+        "stop" : 1651542346589,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651542346564,
+          "stop" : 1651542346589,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-redirects.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian redirects > download redirects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "356ab6a61148967e",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/356ab6a61148967e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651540561997,
+          "stop" : 1651540564479,
+          "duration" : 2482
+        }
+      }, {
+        "uid" : "7bbc3336adb7ba32",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/37//#testresult/7bbc3336adb7ba32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651540225129,
+          "stop" : 1651540228148,
+          "duration" : 3019
+        }
+      }, {
+        "uid" : "c79ae1f54af3f91d",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/36//#testresult/c79ae1f54af3f91d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651538734630,
+          "stop" : 1651538737634,
+          "duration" : 3004
+        }
+      }, {
+        "uid" : "b121babb6bb7c857",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/34//#testresult/b121babb6bb7c857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651531954899,
+          "stop" : 1651531956965,
+          "duration" : 2066
+        }
+      }, {
+        "uid" : "4a4a08f5af6e7994",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/32//#testresult/4a4a08f5af6e7994",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651527843747,
+          "stop" : 1651527846409,
+          "duration" : 2662
+        }
+      }, {
+        "uid" : "b01d70ef591af249",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/31//#testresult/b01d70ef591af249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651526684302,
+          "stop" : 1651526686609,
+          "duration" : 2307
+        }
+      }, {
+        "uid" : "c0df0bae955e590f",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/30//#testresult/c0df0bae955e590f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651514427158,
+          "stop" : 1651514430162,
+          "duration" : 3004
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6462581e62b02ff6.json",
+  "parameterValues" : [ ]
+}
