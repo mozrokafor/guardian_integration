@@ -23,7 +23,7 @@ test.describe('guardian integration', () => {
       })
     })
 
-    test('Should be able to login to VPN via website', async ({ page }) => {
+    test('Should be able to login to VPN via website', async ({ page }, testInfo) => {
       if (testInfo.project.use.defaultBrowserType !== 'firefox') {
         await Promise.all([
           page.locator('a.js-vpn-cta-link:nth-child(4)').click(),
