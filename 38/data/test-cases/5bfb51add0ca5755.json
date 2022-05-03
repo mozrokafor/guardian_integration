@@ -1,0 +1,245 @@
+{
+  "uid" : "5bfb51add0ca5755",
+  "name" : "Verify locale handling in Belgium",
+  "fullName" : "Verify locale handling in Belgium",
+  "historyId" : "chromium specs/guardian-localization-urls.spec.js guardian localization by urls, C1538754, C1601703 Belgium - https://www.mozilla.org/nl/products/vpn/?geo=be Verify locale handling in Belgium",
+  "time" : {
+    "start" : 1651540509178,
+    "stop" : 1651540510706,
+    "duration" : 1528
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651540509179,
+        "stop" : 1651540510534,
+        "duration" : 1355
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651540509179,
+          "stop" : 1651540510534,
+          "duration" : 1355
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651540509189,
+            "stop" : 1651540509223,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/nl/products/vpn/?geo=be)",
+          "time" : {
+            "start" : 1651540509224,
+            "stop" : 1651540510533,
+            "duration" : 1309
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.count(#pricing .vpn-content-block)",
+      "time" : {
+        "start" : 1651540510534,
+        "stop" : 1651540510556,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1651540510556,
+        "stop" : 1651540510556,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent(#pricing .vpn-monthly-price-display >> nth=0)",
+      "time" : {
+        "start" : 1651540510556,
+        "stop" : 1651540510563,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "US$4.99/maand for Belgium did not match expected US$4.99/maand",
+      "time" : {
+        "start" : 1651540510563,
+        "stop" : 1651540510563,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651540510563,
+        "stop" : 1651540510706,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651540510701,
+          "stop" : 1651540510706,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-localization-urls.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian localization by urls, C1538754, C1601703 > Belgium - https://www.mozilla.org/nl/products/vpn/?geo=be"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "60ceed944c058fdb",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/37//#testresult/60ceed944c058fdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651540179579,
+          "stop" : 1651540181369,
+          "duration" : 1790
+        }
+      }, {
+        "uid" : "616530578544ef9",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/36//#testresult/616530578544ef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651538682842,
+          "stop" : 1651538684466,
+          "duration" : 1624
+        }
+      }, {
+        "uid" : "480899c7d487b25f",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/34//#testresult/480899c7d487b25f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651531908979,
+          "stop" : 1651531910548,
+          "duration" : 1569
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5bfb51add0ca5755.json",
+  "parameterValues" : [ ]
+}

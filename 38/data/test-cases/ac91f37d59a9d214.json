@@ -1,0 +1,185 @@
+{
+  "uid" : "ac91f37d59a9d214",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/contact",
+  "fullName" : "Verify redirect for https://vpn.mozilla.org/r/vpn/contact",
+  "historyId" : "firefox specs/guardian-redirects.spec.js guardian redirects Misc redirects Verify redirect for https://vpn.mozilla.org/r/vpn/contact",
+  "time" : {
+    "start" : 1651541407538,
+    "stop" : 1651541410731,
+    "duration" : 3193
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651541407538,
+        "stop" : 1651541408516,
+        "duration" : 978
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1651541407677,
+          "stop" : 1651541408516,
+          "duration" : 839
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://vpn.mozilla.org/r/vpn/contact)",
+      "time" : {
+        "start" : 1651541408516,
+        "stop" : 1651541410033,
+        "duration" : 1517
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1651541410033,
+        "stop" : 1651541410033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651541410033,
+        "stop" : 1651541410731,
+        "duration" : 698
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651541410713,
+          "stop" : 1651541410731,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-redirects.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian redirects > Misc redirects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "257e0b8c07988b84",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/37//#testresult/257e0b8c07988b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651540501657,
+          "stop" : 1651540503643,
+          "duration" : 1986
+        }
+      }, {
+        "uid" : "3d52321e5044e30f",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/36//#testresult/3d52321e5044e30f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651539170616,
+          "stop" : 1651539173430,
+          "duration" : 2814
+        }
+      }, {
+        "uid" : "4e3191f72aa2b386",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/34//#testresult/4e3191f72aa2b386",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651532315110,
+          "stop" : 1651532317335,
+          "duration" : 2225
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac91f37d59a9d214.json",
+  "parameterValues" : [ ]
+}
