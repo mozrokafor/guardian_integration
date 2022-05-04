@@ -14,6 +14,7 @@ on:
           - firefox
       environment:
         description: 'Environment to run tests against'
+        default: 'prod'
         type: environment
         required: true
 
