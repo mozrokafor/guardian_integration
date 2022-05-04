@@ -1,4 +1,5 @@
 name: trigger-e2e-suite
+
 on:
   workflow_dispatch:
     description: Lets user run an e2e test suite in any env-config
@@ -26,12 +27,11 @@ on:
 jobs:
   - trigger-e2e-suite:
     uses: actions/checkout@v2
-
     with:
       project-directory: '.'
-      baseUrl: '${{ secrets.testBaseUrl }}'
-      times: '${{ secrets.testRetries }}'
+      baseUrl: '${{ secrets.TEST_BASE_URL }}'
+      times: '${{ secrets.TEST_RETRIES }}'
 
   - secrets:
-      TEST_ACCOUNT_EMAIL: '${{ secrets.testUserEmail }}'
-      TEST_ACCOUNT_PASSWORD: '${{ secrets.testUserPassword }}'
+      TEST_ACCOUNT_EMAIL: '${{ secrets.TESTACCOUNT_EMAIL }}'
+      TEST_ACCOUNT_PASSWORD: '${{ secrets.TESTACCOUNT_PASSWORD }}'
