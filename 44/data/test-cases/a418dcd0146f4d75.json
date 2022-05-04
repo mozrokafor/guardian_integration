@@ -1,0 +1,221 @@
+{
+  "uid" : "a418dcd0146f4d75",
+  "name" : "Verify locale handling in Switzerland for terms",
+  "fullName" : "Verify locale handling in Switzerland for terms",
+  "historyId" : "firefox specs/guardian-basics-terms.spec.js guardian basics - terms, C1539676 terms locale check for Switzerland Verify locale handling in Switzerland for terms",
+  "time" : {
+    "start" : 1651634536985,
+    "stop" : 1651634546202,
+    "duration" : 9217
+  },
+  "status" : "failed",
+  "statusMessage" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Switzerland-terms-firefox-linux.png is missing in snapshots.",
+  "statusTrace" : "\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js:19:48",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Switzerland-terms-firefox-linux.png is missing in snapshots.",
+    "statusTrace" : "\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js:19:48",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651634536987,
+        "stop" : 1651634542074,
+        "duration" : 5087
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651634536990,
+          "stop" : 1651634542074,
+          "duration" : 5084
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651634538779,
+            "stop" : 1651634539645,
+            "duration" : 866
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/de/products/vpn/?geo=ch)",
+          "time" : {
+            "start" : 1651634539654,
+            "stop" : 1651634542074,
+            "duration" : 2420
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(.vpn-footer-list > li:nth-child(2) > a:nth-child(1))",
+      "time" : {
+        "start" : 1651634542076,
+        "stop" : 1651634542588,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1651634542082,
+        "stop" : 1651634543907,
+        "duration" : 1825
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.screenshot(section h1)",
+      "time" : {
+        "start" : 1651634543921,
+        "stop" : 1651634544440,
+        "duration" : 519
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1651634544484,
+        "stop" : 1651634544492,
+        "duration" : 8
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651634544493,
+        "stop" : 1651634546197,
+        "duration" : 1704
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651634545107,
+          "stop" : 1651634545128,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4246062a60c98090",
+      "name" : "trace",
+      "source" : "4246062a60c98090.ZIP",
+      "type" : "application/zip",
+      "size" : 2479188
+    }, {
+      "uid" : "8c2d0e348680e50",
+      "name" : "screenshot",
+      "source" : "8c2d0e348680e50.png",
+      "type" : "image/png",
+      "size" : 224978
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-basics-terms.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian basics - terms, C1539676 > terms locale check for Switzerland"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a418dcd0146f4d75.json",
+  "parameterValues" : [ ]
+}

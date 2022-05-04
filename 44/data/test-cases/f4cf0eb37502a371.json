@@ -1,0 +1,299 @@
+{
+  "uid" : "f4cf0eb37502a371",
+  "name" : "Verify locale handling in Switzerland",
+  "fullName" : "Verify locale handling in Switzerland",
+  "historyId" : "firefox specs/guardian-localization-urls.spec.js guardian localization by urls, C1538754, C1601703 Switzerland - https://www.mozilla.org/de/products/vpn/?geo=ch Verify locale handling in Switzerland",
+  "time" : {
+    "start" : 1651634397904,
+    "stop" : 1651634404557,
+    "duration" : 6653
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651634397905,
+        "stop" : 1651634402866,
+        "duration" : 4961
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651634397905,
+          "stop" : 1651634402866,
+          "duration" : 4961
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651634398028,
+            "stop" : 1651634400229,
+            "duration" : 2201
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/de/products/vpn/?geo=ch)",
+          "time" : {
+            "start" : 1651634400230,
+            "stop" : 1651634402866,
+            "duration" : 2636
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.count(#pricing .vpn-content-block)",
+      "time" : {
+        "start" : 1651634402866,
+        "stop" : 1651634403395,
+        "duration" : 529
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1651634403395,
+        "stop" : 1651634403395,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent(#pricing .vpn-monthly-price-display >> nth=0)",
+      "time" : {
+        "start" : 1651634403395,
+        "stop" : 1651634403738,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "US$4.99/Monat for Switzerland did not match expected US$4.99/Monat",
+      "time" : {
+        "start" : 1651634403738,
+        "stop" : 1651634403743,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651634403743,
+        "stop" : 1651634404557,
+        "duration" : 814
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651634404474,
+          "stop" : 1651634404555,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-localization-urls.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian localization by urls, C1538754, C1601703 > Switzerland - https://www.mozilla.org/de/products/vpn/?geo=ch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "5f941e361d414bb1",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/43//#testresult/5f941e361d414bb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651633865112,
+          "stop" : 1651633868329,
+          "duration" : 3217
+        }
+      }, {
+        "uid" : "c8f3ffd63eefa68c",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/41//#testresult/c8f3ffd63eefa68c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651632329325,
+          "stop" : 1651632336544,
+          "duration" : 7219
+        }
+      }, {
+        "uid" : "d32e433de78bc69c",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/40//#testresult/d32e433de78bc69c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651631446068,
+          "stop" : 1651631449327,
+          "duration" : 3259
+        }
+      }, {
+        "uid" : "e9953101b02d3c23",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/39//#testresult/e9953101b02d3c23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651596328376,
+          "stop" : 1651596332633,
+          "duration" : 4257
+        }
+      }, {
+        "uid" : "772ba02e14a1bf58",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/772ba02e14a1bf58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651543138896,
+          "stop" : 1651543142877,
+          "duration" : 3981
+        }
+      }, {
+        "uid" : "b25a7b201f60635a",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/b25a7b201f60635a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651541383691,
+          "stop" : 1651541387869,
+          "duration" : 4178
+        }
+      }, {
+        "uid" : "45640094e6370eea",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/37//#testresult/45640094e6370eea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651540445407,
+          "stop" : 1651540448245,
+          "duration" : 2838
+        }
+      }, {
+        "uid" : "58d88a5eef570bdc",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/36//#testresult/58d88a5eef570bdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651539092755,
+          "stop" : 1651539096638,
+          "duration" : 3883
+        }
+      }, {
+        "uid" : "2178216ef372e16c",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/34//#testresult/2178216ef372e16c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651532248882,
+          "stop" : 1651532251735,
+          "duration" : 2853
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f4cf0eb37502a371.json",
+  "parameterValues" : [ ]
+}

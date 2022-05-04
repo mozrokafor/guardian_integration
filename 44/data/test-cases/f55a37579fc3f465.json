@@ -1,0 +1,221 @@
+{
+  "uid" : "f55a37579fc3f465",
+  "name" : "Verify locale handling in Italy for privacy notice",
+  "fullName" : "Verify locale handling in Italy for privacy notice",
+  "historyId" : "firefox specs/guardian-basics-privacy.spec.js guardian basics - privacy, C1539677 Checking locales for different langs and geos Verify locale handling in Italy for privacy notice",
+  "time" : {
+    "start" : 1651634672626,
+    "stop" : 1651634681007,
+    "duration" : 8381
+  },
+  "status" : "failed",
+  "statusMessage" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Italy-privacy-firefox-linux.png is missing in snapshots.",
+  "statusTrace" : "\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js:21:41",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Italy-privacy-firefox-linux.png is missing in snapshots.",
+    "statusTrace" : "\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js:21:41",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651634672627,
+        "stop" : 1651634677641,
+        "duration" : 5014
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651634672629,
+          "stop" : 1651634677641,
+          "duration" : 5012
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651634674099,
+            "stop" : 1651634675113,
+            "duration" : 1014
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/it/products/vpn/?geo=it)",
+          "time" : {
+            "start" : 1651634675118,
+            "stop" : 1651634677641,
+            "duration" : 2523
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(.vpn-footer-list > li:nth-child(1) > a:nth-child(1))",
+      "time" : {
+        "start" : 1651634677643,
+        "stop" : 1651634678112,
+        "duration" : 469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1651634677649,
+        "stop" : 1651634679335,
+        "duration" : 1686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.screenshot",
+      "time" : {
+        "start" : 1651634679336,
+        "stop" : 1651634679538,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1651634679543,
+        "stop" : 1651634679546,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651634679551,
+        "stop" : 1651634681005,
+        "duration" : 1454
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651634680037,
+          "stop" : 1651634680071,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d6f436a30371fa97",
+      "name" : "trace",
+      "source" : "d6f436a30371fa97.ZIP",
+      "type" : "application/zip",
+      "size" : 1960987
+    }, {
+      "uid" : "139511aec833c3a1",
+      "name" : "screenshot",
+      "source" : "139511aec833c3a1.png",
+      "type" : "image/png",
+      "size" : 185278
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-basics-privacy.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian basics - privacy, C1539677 > Checking locales for different langs and geos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f55a37579fc3f465.json",
+  "parameterValues" : [ ]
+}

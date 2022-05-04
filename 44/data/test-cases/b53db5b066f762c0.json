@@ -1,0 +1,280 @@
+{
+  "uid" : "b53db5b066f762c0",
+  "name" : "Verify locale handling in UK for terms",
+  "fullName" : "Verify locale handling in UK for terms",
+  "historyId" : "firefox specs/guardian-basics-terms.spec.js guardian basics - terms, C1539676 terms locale check for UK Verify locale handling in UK for terms",
+  "time" : {
+    "start" : 1651634651990,
+    "stop" : 1651634659604,
+    "duration" : 7614
+  },
+  "status" : "failed",
+  "statusMessage" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots, writing actual.",
+  "statusTrace" : "\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js:19:48",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots, writing actual.",
+    "statusTrace" : "\n    at /home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js:19:48",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651634651991,
+        "stop" : 1651634656446,
+        "duration" : 4455
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651634651993,
+          "stop" : 1651634656446,
+          "duration" : 4453
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651634653587,
+            "stop" : 1651634654556,
+            "duration" : 969
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=gb)",
+          "time" : {
+            "start" : 1651634654560,
+            "stop" : 1651634656446,
+            "duration" : 1886
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(.vpn-footer-list > li:nth-child(2) > a:nth-child(1))",
+      "time" : {
+        "start" : 1651634656448,
+        "stop" : 1651634656707,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1651634656450,
+        "stop" : 1651634657923,
+        "duration" : 1473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.screenshot(section h1)",
+      "time" : {
+        "start" : 1651634657926,
+        "stop" : 1651634658173,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1651634658193,
+        "stop" : 1651634658201,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651634658201,
+        "stop" : 1651634659604,
+        "duration" : 1403
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651634658423,
+          "stop" : 1651634658454,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fb07d6b39875a88b",
+      "name" : "screenshot",
+      "source" : "fb07d6b39875a88b.png",
+      "type" : "image/png",
+      "size" : 215703
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-basics-terms.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian basics - terms, C1539676 > terms locale check for UK"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7f0d2124adad213",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots.",
+      "time" : {
+        "start" : 1651634642265,
+        "stop" : 1651634651068,
+        "duration" : 8803
+      }
+    }, {
+      "uid" : "f43838c4c480eb17",
+      "status" : "failed",
+      "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots.",
+      "time" : {
+        "start" : 1651634634083,
+        "stop" : 1651634641681,
+        "duration" : 7598
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5909dc6def8bb3c5",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/43//#testresult/5909dc6def8bb3c5",
+        "status" : "failed",
+        "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots, writing actual.",
+        "time" : {
+          "start" : 1651634049655,
+          "stop" : 1651634055527,
+          "duration" : 5872
+        }
+      }, {
+        "uid" : "a7d44cdc2e8f407a",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/41//#testresult/a7d44cdc2e8f407a",
+        "status" : "failed",
+        "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots, writing actual.",
+        "time" : {
+          "start" : 1651632609452,
+          "stop" : 1651632617032,
+          "duration" : 7580
+        }
+      }, {
+        "uid" : "d046476a1ef5bde3",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/40//#testresult/d046476a1ef5bde3",
+        "status" : "failed",
+        "statusDetails" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots, writing actual.",
+        "time" : {
+          "start" : 1651631634954,
+          "stop" : 1651631640661,
+          "duration" : 5707
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b53db5b066f762c0.json",
+  "parameterValues" : [ ]
+}

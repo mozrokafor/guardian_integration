@@ -1,0 +1,230 @@
+{
+  "uid" : "b39c90f1050f015e",
+  "name" : "Verify locale handling in Belgium for payment page",
+  "fullName" : "Verify locale handling in Belgium for payment page",
+  "historyId" : "firefox specs/guardian-basics-payments.spec.js guardian basics - payments,  guardian payments locale check for Belgium Verify locale handling in Belgium for payment page",
+  "time" : {
+    "start" : 1651634379455,
+    "stop" : 1651634386672,
+    "duration" : 7217
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651634379455,
+        "stop" : 1651634383148,
+        "duration" : 3693
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651634379456,
+          "stop" : 1651634383148,
+          "duration" : 3692
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651634379613,
+            "stop" : 1651634381150,
+            "duration" : 1537
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/nl/products/vpn/?geo=be)",
+          "time" : {
+            "start" : 1651634381150,
+            "stop" : 1651634383148,
+            "duration" : 1998
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(a.js-vpn-cta-link:nth-child(4))",
+      "time" : {
+        "start" : 1651634383148,
+        "stop" : 1651634385026,
+        "duration" : 1878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1651634383150,
+        "stop" : 1651634385886,
+        "duration" : 2736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContain",
+      "time" : {
+        "start" : 1651634385887,
+        "stop" : 1651634385888,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651634385888,
+        "stop" : 1651634386671,
+        "duration" : 783
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651634386649,
+          "stop" : 1651634386670,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-basics-payments.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian basics - payments,  > guardian payments locale check for Belgium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1a1eb179f058dc95",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/43//#testresult/1a1eb179f058dc95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651633857310,
+          "stop" : 1651633862147,
+          "duration" : 4837
+        }
+      }, {
+        "uid" : "671002dab278e4b0",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/41//#testresult/671002dab278e4b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651632312869,
+          "stop" : 1651632319900,
+          "duration" : 7031
+        }
+      }, {
+        "uid" : "be2771e2916aeb5a",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/40//#testresult/be2771e2916aeb5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651631436324,
+          "stop" : 1651631442971,
+          "duration" : 6647
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b39c90f1050f015e.json",
+  "parameterValues" : [ ]
+}
