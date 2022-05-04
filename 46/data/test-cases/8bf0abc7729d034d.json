@@ -1,0 +1,317 @@
+{
+  "uid" : "8bf0abc7729d034d",
+  "name" : "Verify locale handling in UK",
+  "fullName" : "Verify locale handling in UK",
+  "historyId" : "firefox specs/guardian-localization-urls.spec.js guardian localization by urls, C1538754, C1601703 UK - https://www.mozilla.org/en-US/products/vpn/?geo=gb Verify locale handling in UK",
+  "time" : {
+    "start" : 1651673822050,
+    "stop" : 1651673826358,
+    "duration" : 4308
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651673822050,
+        "stop" : 1651673825416,
+        "duration" : 3366
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651673822050,
+          "stop" : 1651673825416,
+          "duration" : 3366
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651673822101,
+            "stop" : 1651673822744,
+            "duration" : 643
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.mozilla.org/en-US/products/vpn/?geo=gb)",
+          "time" : {
+            "start" : 1651673822744,
+            "stop" : 1651673825416,
+            "duration" : 2672
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.count(#pricing .vpn-content-block)",
+      "time" : {
+        "start" : 1651673825416,
+        "stop" : 1651673825656,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1651673825657,
+        "stop" : 1651673825657,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent(#pricing .vpn-monthly-price-display >> nth=0)",
+      "time" : {
+        "start" : 1651673825657,
+        "stop" : 1651673825858,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "US$4.99/month for UK did not match expected US$4.99/month",
+      "time" : {
+        "start" : 1651673825858,
+        "stop" : 1651673825858,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651673825858,
+        "stop" : 1651673826358,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651673826296,
+          "stop" : 1651673826356,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs/guardian-localization-urls.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "guardian localization by urls, C1538754, C1601703 > UK - https://www.mozilla.org/en-US/products/vpn/?geo=gb"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "7071f3441629c187",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/45//#testresult/7071f3441629c187",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651670366185,
+          "stop" : 1651670370731,
+          "duration" : 4546
+        }
+      }, {
+        "uid" : "f3201fe0e4fcc241",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/44//#testresult/f3201fe0e4fcc241",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651634416168,
+          "stop" : 1651634420746,
+          "duration" : 4578
+        }
+      }, {
+        "uid" : "fc85fca8f41da341",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/43//#testresult/fc85fca8f41da341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651633877673,
+          "stop" : 1651633881537,
+          "duration" : 3864
+        }
+      }, {
+        "uid" : "c9d3dd5a993342d2",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/41//#testresult/c9d3dd5a993342d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651632351255,
+          "stop" : 1651632356552,
+          "duration" : 5297
+        }
+      }, {
+        "uid" : "92117fc6bfdc32f7",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/40//#testresult/92117fc6bfdc32f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651631459633,
+          "stop" : 1651631462897,
+          "duration" : 3264
+        }
+      }, {
+        "uid" : "dba93899f8e19e27",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/39//#testresult/dba93899f8e19e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651596349550,
+          "stop" : 1651596354296,
+          "duration" : 4746
+        }
+      }, {
+        "uid" : "26d1fc59f9c716b8",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/26d1fc59f9c716b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651543152477,
+          "stop" : 1651543155516,
+          "duration" : 3039
+        }
+      }, {
+        "uid" : "99dd870472a9dad4",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/38//#testresult/99dd870472a9dad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651541400309,
+          "stop" : 1651541404601,
+          "duration" : 4292
+        }
+      }, {
+        "uid" : "232c43b56769441a",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/37//#testresult/232c43b56769441a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651540456218,
+          "stop" : 1651540459102,
+          "duration" : 2884
+        }
+      }, {
+        "uid" : "9ae4c923bebfb9c",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/36//#testresult/9ae4c923bebfb9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651539108547,
+          "stop" : 1651539112155,
+          "duration" : 3608
+        }
+      }, {
+        "uid" : "b8586522d3514f6a",
+        "reportUrl" : "https://mozrokafor.github.io/guardian_integration/34//#testresult/b8586522d3514f6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651532260764,
+          "stop" : 1651532263852,
+          "duration" : 3088
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8bf0abc7729d034d.json",
+  "parameterValues" : [ ]
+}
