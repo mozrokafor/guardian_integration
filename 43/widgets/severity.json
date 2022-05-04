@@ -1,0 +1,721 @@
+[ {
+  "uid" : "fa2330045b4f6bb5",
+  "name" : "Verify locale handling in France for payment page",
+  "time" : {
+    "start" : 1651633881558,
+    "stop" : 1651633886108,
+    "duration" : 4550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cbe0d429bca3473",
+  "name" : "Verify locale handling in UK for privacy notice",
+  "time" : {
+    "start" : 1651634046183,
+    "stop" : 1651634052159,
+    "duration" : 5976
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "db9d8e42eb986594",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/invite, C1539666",
+  "time" : {
+    "start" : 1651633903414,
+    "stop" : 1651633905633,
+    "duration" : 2219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3bf53668e594a8e",
+  "name" : "Verify locale handling in Malaysia for payment page",
+  "time" : {
+    "start" : 1651633895427,
+    "stop" : 1651633900195,
+    "duration" : 4768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e32fb4d5d9898ce",
+  "name" : "Verify locale handling in New Zealand for terms",
+  "time" : {
+    "start" : 1651634107805,
+    "stop" : 1651634113548,
+    "duration" : 5743
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "407083c1762a1ede",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/, C1539677",
+  "time" : {
+    "start" : 1651633931537,
+    "stop" : 1651633933654,
+    "duration" : 2117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c2fb336b63150a8",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/android",
+  "time" : {
+    "start" : 1651633962431,
+    "stop" : 1651633968422,
+    "duration" : 5991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7472a3916a5e576",
+  "name" : "Verify locale handling in Canada for privacy notice",
+  "time" : {
+    "start" : 1651633944319,
+    "stop" : 1651633950555,
+    "duration" : 6236
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d85b7135d17e8db6",
+  "name" : "Verify locale handling in Singapore for terms",
+  "time" : {
+    "start" : 1651634127118,
+    "stop" : 1651634132975,
+    "duration" : 5857
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "409ef1d8e068daca",
+  "name" : "Verify locale handling in Austria for payment page",
+  "time" : {
+    "start" : 1651633846367,
+    "stop" : 1651633857309,
+    "duration" : 10942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5909dc6def8bb3c5",
+  "name" : "Verify locale handling in UK for terms",
+  "time" : {
+    "start" : 1651634049655,
+    "stop" : 1651634055527,
+    "duration" : 5872
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "552d04b8d953e347",
+  "name" : "Verify locale handling in Austria for terms",
+  "time" : {
+    "start" : 1651633876140,
+    "stop" : 1651633888193,
+    "duration" : 12053
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "628a4b40062a163b",
+  "name" : "Verify locale handling in Malaysia for privacy notice",
+  "time" : {
+    "start" : 1651634085038,
+    "stop" : 1651634091171,
+    "duration" : 6133
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7b28996eca6c5fd",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/subscriptionBlocked, C1539674",
+  "time" : {
+    "start" : 1651633924665,
+    "stop" : 1651633927060,
+    "duration" : 2395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc85fca8f41da341",
+  "name" : "Verify locale handling in UK",
+  "time" : {
+    "start" : 1651633877673,
+    "stop" : 1651633881537,
+    "duration" : 3864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d21590d8b2399c15",
+  "name" : "Verify locale handling in Singapore for payment page",
+  "time" : {
+    "start" : 1651633904898,
+    "stop" : 1651633909900,
+    "duration" : 5002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "697f7f89c5c60a15",
+  "name" : "Verify locale handling in Canada",
+  "time" : {
+    "start" : 1651633861946,
+    "stop" : 1651633865110,
+    "duration" : 3164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "219b5e12334c0aba",
+  "name" : "Verify locale handling in Germany for privacy notice",
+  "time" : {
+    "start" : 1651633987785,
+    "stop" : 1651633994477,
+    "duration" : 6692
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2cd9d4400e4d39d",
+  "name" : "Verify locale handling in Germany",
+  "time" : {
+    "start" : 1651633868330,
+    "stop" : 1651633871914,
+    "duration" : 3584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbae5b2a2b5e1ac6",
+  "name" : "Verify locale handling in United States for privacy notice",
+  "time" : {
+    "start" : 1651634143185,
+    "stop" : 1651634148978,
+    "duration" : 5793
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ef932631c1069f7",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/support, C1539673",
+  "time" : {
+    "start" : 1651633921150,
+    "stop" : 1651633924665,
+    "duration" : 3515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf1ddce42633adf4",
+  "name" : "Verify locale handling in Germany for terms",
+  "time" : {
+    "start" : 1651633990328,
+    "stop" : 1651633996355,
+    "duration" : 6027
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a51ae9dd8f1ef8f9",
+  "name" : "Verify locale handling in Austria for privacy notice",
+  "time" : {
+    "start" : 1651633876179,
+    "stop" : 1651633888877,
+    "duration" : 12698
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc0f4b3670576c8e",
+  "name" : "Verify locale handling in Switzerland for privacy notice",
+  "time" : {
+    "start" : 1651633967951,
+    "stop" : 1651633974490,
+    "duration" : 6539
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8f0f23a71fe97d5",
+  "name" : "Verify locale handling in Switzerland for terms",
+  "time" : {
+    "start" : 1651633970802,
+    "stop" : 1651633976494,
+    "duration" : 5692
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec23058133276666",
+  "name" : "Verify locale handling in United States for payment page",
+  "time" : {
+    "start" : 1651633909900,
+    "stop" : 1651633914791,
+    "duration" : 4891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "995941c73ffa9f07",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/client/feedback, C1539670",
+  "time" : {
+    "start" : 1651633914146,
+    "stop" : 1651633916693,
+    "duration" : 2547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9a1cbe0a8f458b4",
+  "name" : "Should be able to login to VPN",
+  "time" : {
+    "start" : 1651633846466,
+    "stop" : 1651633854726,
+    "duration" : 8260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39035b9666006c82",
+  "name" : "Verify locale handling in Singapore",
+  "time" : {
+    "start" : 1651633892334,
+    "stop" : 1651633895630,
+    "duration" : 3296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53b343dca4d3d726",
+  "name" : "Verify locale handling in Italy",
+  "time" : {
+    "start" : 1651633881537,
+    "stop" : 1651633884945,
+    "duration" : 3408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80a08953369abd2b",
+  "name" : "Verify locale handling in Germany for payment page",
+  "time" : {
+    "start" : 1651633872950,
+    "stop" : 1651633877433,
+    "duration" : 4483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "660b88032acbdcbc",
+  "name" : "Verify locale handling in France",
+  "time" : {
+    "start" : 1651633875064,
+    "stop" : 1651633877672,
+    "duration" : 2608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38be4448340f9de",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/linux",
+  "time" : {
+    "start" : 1651633936243,
+    "stop" : 1651633938998,
+    "duration" : 2755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a9dc09609609cde",
+  "name" : "Verify locale handling in Italy for privacy notice",
+  "time" : {
+    "start" : 1651634065720,
+    "stop" : 1651634071727,
+    "duration" : 6007
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb624f458f50bf23",
+  "name" : "Verify locale handling in New Zealand",
+  "time" : {
+    "start" : 1651633888659,
+    "stop" : 1651633892334,
+    "duration" : 3675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdf55f2020acb79e",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/invite/success, C1539667",
+  "time" : {
+    "start" : 1651633905633,
+    "stop" : 1651633908842,
+    "duration" : 3209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c569d9e4f820169",
+  "name" : "Verify locale handling in Italy for payment page",
+  "time" : {
+    "start" : 1651633890943,
+    "stop" : 1651633895427,
+    "duration" : 4484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a1eb179f058dc95",
+  "name" : "Verify locale handling in Belgium for payment page",
+  "time" : {
+    "start" : 1651633857310,
+    "stop" : 1651633862147,
+    "duration" : 4837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "696eb03a00584500",
+  "name" : "Verify locale handling in United States for terms",
+  "time" : {
+    "start" : 1651634146767,
+    "stop" : 1651634152033,
+    "duration" : 5266
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1246d23f55b00140",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/ios",
+  "time" : {
+    "start" : 1651633943138,
+    "stop" : 1651633962431,
+    "duration" : 19293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a65dc5699cdc586",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/account, C1539671",
+  "time" : {
+    "start" : 1651633916693,
+    "stop" : 1651633919316,
+    "duration" : 2623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92a4103933880f31",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/subscription, C1539672",
+  "time" : {
+    "start" : 1651633919316,
+    "stop" : 1651633921149,
+    "duration" : 1833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d9e38d45f23e50e",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/download/linux",
+  "time" : {
+    "start" : 1651633933654,
+    "stop" : 1651633936243,
+    "duration" : 2589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2ed44a2cbb95eec",
+  "name" : "Verify locale handling in Singapore for privacy notice",
+  "time" : {
+    "start" : 1651634123608,
+    "stop" : 1651634129623,
+    "duration" : 6015
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "76cac57202cba86d",
+  "name" : "Verify locale handling in Malaysia",
+  "time" : {
+    "start" : 1651633884945,
+    "stop" : 1651633888659,
+    "duration" : 3714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9f76d06a8f09f14",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/contact, C1539675",
+  "time" : {
+    "start" : 1651633927061,
+    "stop" : 1651633929076,
+    "duration" : 2015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bc2b8689c6e3613",
+  "name" : "Verify locale handling in Switzerland for payment page",
+  "time" : {
+    "start" : 1651633867388,
+    "stop" : 1651633872950,
+    "duration" : 5562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96b7fb2d53319baf",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/windows",
+  "time" : {
+    "start" : 1651633941200,
+    "stop" : 1651633943131,
+    "duration" : 1931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e9977d992a1f359",
+  "name" : "Verify locale handling in UK for payment page",
+  "time" : {
+    "start" : 1651633886108,
+    "stop" : 1651633890942,
+    "duration" : 4834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c224369395a4f05",
+  "name" : "Verify locale handling in Canada for payment page",
+  "time" : {
+    "start" : 1651633862147,
+    "stop" : 1651633867387,
+    "duration" : 5240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c16eefec788ed98",
+  "name" : "Verify locale handling in Belgium for privacy notice",
+  "time" : {
+    "start" : 1651633917931,
+    "stop" : 1651633926061,
+    "duration" : 8130
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "54cd9188dcbd8181",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/terms, C1539676",
+  "time" : {
+    "start" : 1651633929076,
+    "stop" : 1651633931537,
+    "duration" : 2461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9927c432179bcd48",
+  "name" : "Verify locale handling in Canada for terms",
+  "time" : {
+    "start" : 1651633946207,
+    "stop" : 1651633952418,
+    "duration" : 6211
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b1296408df00c41",
+  "name" : "Verify locale handling in Malaysia for terms",
+  "time" : {
+    "start" : 1651634088442,
+    "stop" : 1651634094232,
+    "duration" : 5790
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ccaf3aa978c824d",
+  "name" : "Verify locale handling in Spain for payment page",
+  "time" : {
+    "start" : 1651633877433,
+    "stop" : 1651633881557,
+    "duration" : 4124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db45dc5b76af1c17",
+  "name" : "Verify locale handling in Italy for terms",
+  "time" : {
+    "start" : 1651634069071,
+    "stop" : 1651634074791,
+    "duration" : 5720
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f941e361d414bb1",
+  "name" : "Verify locale handling in Switzerland",
+  "time" : {
+    "start" : 1651633865112,
+    "stop" : 1651633868329,
+    "duration" : 3217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e05f871798288d19",
+  "name" : "Verify locale handling in New Zealand for privacy notice",
+  "time" : {
+    "start" : 1651634104379,
+    "stop" : 1651634110389,
+    "duration" : 6010
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1493623ab28041a",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/subscribe, C1539668",
+  "time" : {
+    "start" : 1651633908842,
+    "stop" : 1651633914145,
+    "duration" : 5303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cc652beebcbc62c",
+  "name" : "Verify locale handling in Belgium for terms",
+  "time" : {
+    "start" : 1651633917468,
+    "stop" : 1651633925459,
+    "duration" : 7991
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3065ec42243abc3a",
+  "name" : "Verify locale handling in Spain for terms",
+  "time" : {
+    "start" : 1651634010547,
+    "stop" : 1651634016381,
+    "duration" : 5834
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fb7a02b2753a401",
+  "name" : "Verify locale handling in France for privacy notice",
+  "time" : {
+    "start" : 1651634026686,
+    "stop" : 1651634032812,
+    "duration" : 6126
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "72934a3071a3c903",
+  "name" : "Verify redirect for https://vpn.mozilla.org, C1538764",
+  "time" : {
+    "start" : 1651633899886,
+    "stop" : 1651633903414,
+    "duration" : 3528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5d7717408df1d59",
+  "name" : "Verify locale handling in United States",
+  "time" : {
+    "start" : 1651633895631,
+    "stop" : 1651633899879,
+    "duration" : 4248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aecfbe444575ad3",
+  "name" : "Verify locale handling in Spain",
+  "time" : {
+    "start" : 1651633871914,
+    "stop" : 1651633875064,
+    "duration" : 3150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2229f8892f9d782a",
+  "name" : "Verify locale handling in New Zealand for payment page",
+  "time" : {
+    "start" : 1651633900195,
+    "stop" : 1651633904898,
+    "duration" : 4703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21f7bb565f547d0b",
+  "name" : "Should be able to login to VPN via website",
+  "time" : {
+    "start" : 1651633854726,
+    "stop" : 1651633856708,
+    "duration" : 1982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1afa9e9c8f4de9f9",
+  "name" : "Verify locale handling in France for terms",
+  "time" : {
+    "start" : 1651634030186,
+    "stop" : 1651634035987,
+    "duration" : 5801
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "23f9a2efdc06b723",
+  "name" : "Verify locale handling in Belgium",
+  "time" : {
+    "start" : 1651633859620,
+    "stop" : 1651633861946,
+    "duration" : 2326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69e03b7a72352bf2",
+  "name" : "Verify locale handling in Spain for privacy notice",
+  "time" : {
+    "start" : 1651634007691,
+    "stop" : 1651634013354,
+    "duration" : 5663
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd54dc212d039ace",
+  "name" : "Verify redirect for https://vpn.mozilla.org/r/vpn/update/macos",
+  "time" : {
+    "start" : 1651633938998,
+    "stop" : 1651633941200,
+    "duration" : 2202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "814c9af646edd5a4",
+  "name" : "Verify locale handling in Austria",
+  "time" : {
+    "start" : 1651633856722,
+    "stop" : 1651633859609,
+    "duration" : 2887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
