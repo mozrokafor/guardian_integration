@@ -1,0 +1,451 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Austria-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Austria for terms",
+        "uid" : "c8e030a57c9317af",
+        "parentUid" : "130ea2bb83191232f9283663797f34af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670355991,
+          "stop" : 1651670370636,
+          "duration" : 14645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "130ea2bb83191232f9283663797f34af"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Austria-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Austria for privacy notice",
+        "uid" : "34b379712bb13c4a",
+        "parentUid" : "05fb9078e3b627cc9d1ca99a2be1e3a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670356192,
+          "stop" : 1651670370076,
+          "duration" : 13884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05fb9078e3b627cc9d1ca99a2be1e3a9"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Belgium-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Belgium for privacy notice",
+        "uid" : "45fb523317a3d39f",
+        "parentUid" : "f25f211308ae09004b15780c6518d8cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670408315,
+          "stop" : 1651670417223,
+          "duration" : 8908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f25f211308ae09004b15780c6518d8cf"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Belgium-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Belgium for terms",
+        "uid" : "b65426eb64c05483",
+        "parentUid" : "db729387082478cdbea257d4e787962f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670410036,
+          "stop" : 1651670419578,
+          "duration" : 9542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db729387082478cdbea257d4e787962f"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Canada-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Canada for privacy notice",
+        "uid" : "d4972fbf7b925974",
+        "parentUid" : "1130e4022b12e1f3f326c51a6fbf8b8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670439651,
+          "stop" : 1651670449278,
+          "duration" : 9627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1130e4022b12e1f3f326c51a6fbf8b8f"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Canada-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Canada for terms",
+        "uid" : "ef2e19b3fbc64ae7",
+        "parentUid" : "1cc76edb72502b2d5c3d45318ebf5b11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670443136,
+          "stop" : 1651670451962,
+          "duration" : 8826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cc76edb72502b2d5c3d45318ebf5b11"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Switzerland-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Switzerland for privacy notice",
+        "uid" : "21761689be0e1386",
+        "parentUid" : "18e316299265f1374c0bcd67bd78d04e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670470272,
+          "stop" : 1651670476737,
+          "duration" : 6465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18e316299265f1374c0bcd67bd78d04e"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Switzerland-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Switzerland for terms",
+        "uid" : "28a8068ed15412a3",
+        "parentUid" : "8bdd2b3cb1a2b8a8870f031e1a603860",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670471394,
+          "stop" : 1651670477903,
+          "duration" : 6509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8bdd2b3cb1a2b8a8870f031e1a603860"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Germany-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Germany for privacy notice",
+        "uid" : "c59022c49983e583",
+        "parentUid" : "749fd4e8f80fc213ee8f6ffc4e72207e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670492232,
+          "stop" : 1651670498661,
+          "duration" : 6429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "749fd4e8f80fc213ee8f6ffc4e72207e"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Germany-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Germany for terms",
+        "uid" : "454a22c115786ba9",
+        "parentUid" : "0da45c17a58d8cf3d5293c7263adcddf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670494591,
+          "stop" : 1651670501192,
+          "duration" : 6601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0da45c17a58d8cf3d5293c7263adcddf"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Spain-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Spain for privacy notice",
+        "uid" : "e91f6c47a3e993a5",
+        "parentUid" : "a9e5295f979b2abde87037017052b65e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670514170,
+          "stop" : 1651670520875,
+          "duration" : 6705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9e5295f979b2abde87037017052b65e"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Spain-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Spain for terms",
+        "uid" : "a34dcbaef55df7f",
+        "parentUid" : "2e0de588e7a6ac15865ca774aca646dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670517195,
+          "stop" : 1651670523616,
+          "duration" : 6421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e0de588e7a6ac15865ca774aca646dc"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/France-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in France for privacy notice",
+        "uid" : "40744d9249360b59",
+        "parentUid" : "8b51ca29d337a9aa733612b79eb4f31c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670535906,
+          "stop" : 1651670542525,
+          "duration" : 6619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b51ca29d337a9aa733612b79eb4f31c"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/France-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in France for terms",
+        "uid" : "ac14652532db54a3",
+        "parentUid" : "77f2d060bcc57749cbfbdd90cd7c6d8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670540879,
+          "stop" : 1651670547038,
+          "duration" : 6159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77f2d060bcc57749cbfbdd90cd7c6d8f"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/UK-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in UK for privacy notice",
+        "uid" : "acd175c83ec1f6fe",
+        "parentUid" : "778006acdcf59a66b21ddee7c6347dc1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670558477,
+          "stop" : 1651670565055,
+          "duration" : 6578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "778006acdcf59a66b21ddee7c6347dc1"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/UK-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in UK for terms",
+        "uid" : "fd33803656cbb50d",
+        "parentUid" : "89dc3f90b52b6ba1bc6fe244f0b1a691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670562946,
+          "stop" : 1651670569501,
+          "duration" : 6555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89dc3f90b52b6ba1bc6fe244f0b1a691"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Italy-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Italy for privacy notice",
+        "uid" : "9439efaaa6cf90c7",
+        "parentUid" : "84acbffe267ae7be75e8f1feb753a2ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670581352,
+          "stop" : 1651670588198,
+          "duration" : 6846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84acbffe267ae7be75e8f1feb753a2ff"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Italy-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Italy for terms",
+        "uid" : "4e8ceedfd079ad21",
+        "parentUid" : "4e99daa14f029b645aaba78e9d847744",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670585446,
+          "stop" : 1651670592178,
+          "duration" : 6732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e99daa14f029b645aaba78e9d847744"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Malaysia-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Malaysia for privacy notice",
+        "uid" : "21f374ec8771440",
+        "parentUid" : "ab0779728dca1bdc20ffd06556a28255",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670604009,
+          "stop" : 1651670610686,
+          "duration" : 6677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab0779728dca1bdc20ffd06556a28255"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Malaysia-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Malaysia for terms",
+        "uid" : "28443c77e3944201",
+        "parentUid" : "28cc6c38233f3902070df34d6c8ebb8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670608228,
+          "stop" : 1651670615235,
+          "duration" : 7007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28cc6c38233f3902070df34d6c8ebb8b"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/New-Zealand-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in New Zealand for privacy notice",
+        "uid" : "a90f4662150f7e22",
+        "parentUid" : "04a7ee4f2de0c7d8ce17aeff7e810638",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670627201,
+          "stop" : 1651670633596,
+          "duration" : 6395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04a7ee4f2de0c7d8ce17aeff7e810638"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/New-Zealand-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in New Zealand for terms",
+        "uid" : "1f39ba5c091f4058",
+        "parentUid" : "bf761bfc61b5017e28a6ec4670c66e88",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670631595,
+          "stop" : 1651670638125,
+          "duration" : 6530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf761bfc61b5017e28a6ec4670c66e88"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/Singapore-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Singapore for privacy notice",
+        "uid" : "d391b785adb692f6",
+        "parentUid" : "c97f428b93edf2edc9dbeab73d173a71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670649222,
+          "stop" : 1651670655588,
+          "duration" : 6366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c97f428b93edf2edc9dbeab73d173a71"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/Singapore-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in Singapore for terms",
+        "uid" : "4d155ab001b7fc79",
+        "parentUid" : "b35a1e4b907826d36be24d16a3cd13e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670654920,
+          "stop" : 1651670661387,
+          "duration" : 6467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b35a1e4b907826d36be24d16a3cd13e1"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-privacy.spec.js-snapshots/United-States-privacy-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in United States for privacy notice",
+        "uid" : "a587b51b1d97b4d",
+        "parentUid" : "cd3bea620169432490c06bb8c5765d0c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670671008,
+          "stop" : 1651670677728,
+          "duration" : 6720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd3bea620169432490c06bb8c5765d0c"
+    }, {
+      "name" : "/home/runner/work/guardian_integration/guardian_integration/tests/specs/guardian-basics-terms.spec.js-snapshots/United-States-terms-firefox-linux.png is missing in snapshots, writing actual.",
+      "children" : [ {
+        "name" : "Verify locale handling in United States for terms",
+        "uid" : "779c1e371779f6e",
+        "parentUid" : "dc616bd8776dca5fe265e202e97dabac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651670677451,
+          "stop" : 1651670682579,
+          "duration" : 5128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc616bd8776dca5fe265e202e97dabac"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
