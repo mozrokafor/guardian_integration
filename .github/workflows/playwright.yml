@@ -58,24 +58,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-  e2e-tests:
-    runs-on: ubuntu-latest # or macos-latest, windows-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Use Node.js 14
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
-
-      - name: Install dependencies and run tests
-        run: |
-          npm install
-          npm install -D @playwright/test --with-deps
-          npx playwright install
-          npm run test
-        env:
-          CI: true
-          TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
-          TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}

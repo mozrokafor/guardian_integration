@@ -12,7 +12,12 @@ require('dotenv').config()
  * @type {import('@playwright/test').PlaywrightTestConfig}
  */
 const config = {
+  /* Add any setup files here. */
+  globalSetup: require.resolve('./global-setup.js'),
+
+  /* Add location of specs. */
   testDir: 'tests',
+
   /* Maximum time one test can run for. */
   timeout: 50 * 1000,
   expect: {

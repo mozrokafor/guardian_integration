@@ -19,11 +19,20 @@ on:
         required: true
 
 jobs:
-  print-tag:
+  run-e2e:
     runs-on: ubuntu-latest
     steps:
-      - name: Print the input tag to STDOUT
-        run: echo  Just checking stuff hereeee --||-> ${{ secrets.TEST_ENV }}
+      - name: Use Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies and run tests
+        run: |
+          npm install
+          npm install -D @playwright/test --with-deps
+          npx playwright install
+          npm run test
         env:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
