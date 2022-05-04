@@ -21,7 +21,6 @@ on:
 jobs:
   print-tag:
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.print_tags == 'true' }}
     steps:
       - name: Print the input tag to STDOUT
-        run: echo  The tags are ${{ github.event.inputs.tags }}
+        run: echo  Just checking stuff hereeee
