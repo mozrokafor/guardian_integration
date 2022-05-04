@@ -1,37 +1,34 @@
-name: trigger-e2e-suite
+name: trigger e2e suite
 
 on:
   workflow_dispatch:
-    description: Lets user run an e2e test suite in any env-config
     inputs:
-      baseUrl:
-        description: any deployment to execute the tests against
+      logLevel:
+        description: 'Log level'
         required: true
+        default: 'warning'
         type: choice
         options:
-          - 'https://www-dev.allizom.org/products/vpn/'
-          - 'https://www.vpn.mozilla.org/'
-        env-config:
-          description: 'Env to run tests in: the config is used, but the baseUrl is overwritten by the above'
-          required: true
-          type: choice
-          options:
-            - 'stage'
-            - 'prod'
-        times:
-          description: Number of times to repeat the test suite entirely
-          required: false
-          default: '1'
-          type: string
+          - info
+          - warning
+          - debug
+      print_tags:
+        description: 'True to print to STDOUT'
+        required: true
+        type: boolean
+      tags:
+        description: 'Test scenario tags'
+        required: true
+        type: string
+      environment:
+        description: 'Environment to run tests against'
+        type: environment
+        required: true
 
 jobs:
-  - trigger-e2e-suite:
-    uses: actions/checkout@v2
-    with:
-      project-directory: '.'
-      baseUrl: '${{ secrets.TEST_BASE_URL }}'
-      times: '${{ secrets.TEST_RETRIES }}'
-
-  - secrets:
-      TEST_ACCOUNT_EMAIL: '${{ secrets.TESTACCOUNT_EMAIL }}'
-      TEST_ACCOUNT_PASSWORD: '${{ secrets.TESTACCOUNT_PASSWORD }}'
+  print-tag:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.print_tags == 'true' }}
+    steps:
+      - name: Print the input tag to STDOUT
+        run: echo  The tags are ${{ github.event.inputs.tags }}
