@@ -1,25 +1,17 @@
-name: trigger e2e suite
+name: trigger guardian e2e suite
 
 on:
   workflow_dispatch:
+    description: 'Lets user run the guardian e2e suite with env variables'
     inputs:
-      logLevel:
-        description: 'Log level'
+      browser:
+        description: 'Browser to run e2e suite against'
         required: true
-        default: 'warning'
+        default: 'firefox'
         type: choice
         options:
-          - info
-          - warning
-          - debug
-      print_tags:
-        description: 'True to print to STDOUT'
-        required: true
-        type: boolean
-      tags:
-        description: 'Test scenario tags'
-        required: true
-        type: string
+          - chromium
+          - firefox
       environment:
         description: 'Environment to run tests against'
         type: environment
