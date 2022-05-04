@@ -23,4 +23,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print the input tag to STDOUT
-        run: echo  Just checking stuff hereeee
+        run: echo  Just checking stuff hereeee ---> ${{ secrets.TESTACCOUNT_EMAIL }}
