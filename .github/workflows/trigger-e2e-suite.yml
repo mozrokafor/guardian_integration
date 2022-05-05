@@ -19,7 +19,7 @@ on:
         required: true
 
 jobs:
-  print-tag:
+  run-e2e:
     runs-on: ubuntu-latest
     steps:
       - name: Print the input tag to STDOUT
