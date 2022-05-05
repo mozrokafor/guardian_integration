@@ -13,7 +13,12 @@ require('dotenv').config()
  */
 const config = {
   /* Add any setup files here. */
-  globalSetup: require.resolve('./global-setup.js'),
+  // globalSetup: require.resolve('./global-setup.js'),
+
+  /* Max time in milliseconds the whole test suite can to prevent CI breaking. */
+  globalTimeout: process.env.CI ? 60 * 60 * 1000 : undefined,
+
+  updateSnapshots: 'missing',
 
   /* Add location of specs. */
   testDir: 'tests',
