@@ -28,8 +28,13 @@ jobs:
         with:
           node-version: 14
       - name: Print the input tag to STDOUT
-        run: echo  Just checking stuff hereeee ---> stuff here
+        run: |
+          npm install
+          npm install -D @playwright/test --with-deps
+          npx playwright install
+          npm run test
         env:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
+          TEST_ENV: ${{ secrets.TEST_ENV }}
