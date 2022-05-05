@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a416ed0f0af3c6c3",
+  "name" : "Verify redirect for undefined, C1538764",
+  "time" : {
+    "start" : 1651767159922,
+    "stop" : 1651767161944,
+    "duration" : 2022
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

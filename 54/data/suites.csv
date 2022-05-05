@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu May 05 16:12:39 GMT 2022","Thu May 05 16:12:41 GMT 2022","2022","firefox","specs/guardian-redirects.spec.js","guardian redirects > redirects to mozilla.org","","","Verify redirect for undefined, C1538764",""
