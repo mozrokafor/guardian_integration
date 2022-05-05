@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test')
 const { verifyUrl } = require('../utils/helpers')
 
 test.describe('guardian redirects', () => {
-  const baseUrl = process.env.TEST_BASE_URL
+  const baseUrl = 'https://vpn.mozilla.org'
   test.describe('redirects to mozilla.org', () => {
     test(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
       console.log(process.env.TEST_ENV)
