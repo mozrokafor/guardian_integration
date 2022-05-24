@@ -4,14 +4,6 @@ on:
   workflow_dispatch:
     description: 'Lets user run the guardian e2e suite with env variables'
     inputs:
-      browser:
-        description: 'Browser to run e2e suite against'
-        required: true
-        default: 'firefox'
-        type: choice
-        options:
-          - chromium
-          - firefox
       environment:
         description: 'Environment to run tests against'
         default: 'prod'
