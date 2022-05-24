@@ -8,7 +8,7 @@ test.describe.configure({ mode: 'parallel' })
 
 test.describe('guardian redirects', () => {
   test.describe(`redirects for ${baseUrl} origin`, () => {
-    test.only(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
+    test(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
       console.log(expectedBaseUrl)
       console.log(process.env.TEST_BASE_URL)
       await verifyRedirectUrl(
