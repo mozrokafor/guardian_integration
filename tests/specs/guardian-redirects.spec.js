@@ -1,8 +1,8 @@
 const { test, expect } = require('@playwright/test')
 const { verifyRedirectUrl } = require('../utils/helpers')
 
-const baseUrl = process.env.TEST_BASE_URL
-const expectedBaseUrl = process.env.TEST_EXPECT_URL
+const baseUrl = 'https://vpn.mozilla.org'
+const expectedBaseUrl = 'https://www.mozilla.org'
 
 test.describe.configure({ mode: 'parallel' })
 
