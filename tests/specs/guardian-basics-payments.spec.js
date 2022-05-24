@@ -1,13 +1,17 @@
 const { test, expect } = require('@playwright/test')
 const { supportedLocales } = require('../fixtures/locales')
 
+const baseUrl = process.env.TEST_EXPECT_URL
+
+test.describe.configure({ mode: 'parallel' })
+
 // C1538755 - Verify that PN and TOS are translated for each one of the new regions
 test.describe('guardian basics - payments, ', () => {
   test.use({ viewport: { width: 1980, height: 1080 } })
   for (const locale of supportedLocales) {
     test.describe(`guardian payments locale check for ${locale.name}`, () => {
       test.beforeEach(async ({ page }) => {
-        await page.goto(`https://www.mozilla.org/${locale.lang}/products/vpn/?geo=${locale.geo}`, {
+        await page.goto(`${baseUrl}/${locale.lang}/products/vpn/?geo=${locale.geo}`, {
           waitUntil: 'networkidle',
         })
       })
@@ -20,10 +24,11 @@ test.describe('guardian basics - payments, ', () => {
           monthPlanButton.click(),
           page.waitForNavigation({ waitUntil: 'networkidle' }),
         ])
+        // await page.pause()
         const expectedUrl =
           testInfo.project.use.defaultBrowserType === 'firefox'
-            ? 'https://accounts.firefox.com/subscriptions/'
-            : 'https://subscriptions.firefox.com/checkout'
+            ? 'accounts.firefox.com'
+            : 'subscriptions.firefox.com'
         expect(page.url()).toContain(expectedUrl)
       })
     })

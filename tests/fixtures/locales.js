@@ -15,19 +15,97 @@ const supportedLocalesWithCurrency = [
 ]
 
 const supportedLocales = [
-  { lang: 'de', geo: 'at', name: 'Austria' }, // currently returns USD instead of EURO
-  { lang: 'nl', geo: 'be', name: 'Belgium' },
-  { lang: 'en-US', geo: 'ca', name: 'Canada' },
-  { lang: 'de', geo: 'ch', name: 'Switzerland' },
-  { lang: 'de', geo: 'de', name: 'Germany' },
-  { lang: 'es-US', geo: 'es', name: 'Spain' },
-  { lang: 'fr', geo: 'fr', name: 'France' },
-  { lang: 'en-US', geo: 'gb', name: 'UK' }, // shouldn't this be in pounds?
-  { lang: 'it', geo: 'it', name: 'Italy' },
-  { lang: 'en-US', geo: 'my', name: 'Malaysia' },
-  { lang: 'en-US', geo: 'nz', name: 'New Zealand' },
-  { lang: 'en-US', geo: 'sg', name: 'Singapore' },
-  { lang: 'en-US', geo: 'US', name: 'United States' },
+  {
+    lang: 'de',
+    geo: 'at',
+    name: 'Austria',
+    expectedTermsTitle: 'Mozilla VPN Servicebedingungen',
+    expectedPrivacyTitle: 'Mozilla VPN Servicebedingungen',
+  }, // currently returns USD instead of EURO
+  {
+    lang: 'nl',
+    geo: 'be',
+    name: 'Belgium',
+    expectedTermsTitle: 'Voorwaarden van de Mozilla VPN Terms',
+    expectedPrivacyTitle: 'Mozilla VPN Privacyverklaring',
+  },
+  {
+    lang: 'en-US',
+    geo: 'ca',
+    name: 'Canada',
+    expectedTermsTitle: 'Mozilla VPN Terms of Service',
+    expectedPrivacyTitle: 'Mozilla VPN Privacy Notice',
+  },
+  {
+    lang: 'de',
+    geo: 'ch',
+    name: 'Switzerland',
+    expectedTermsTitle: 'Mozilla VPN Servicebedingungen',
+    expectedPrivacyTitle: 'Mozilla VPN Datenschutzhinweis',
+  },
+  {
+    lang: 'de',
+    geo: 'de',
+    name: 'Germany',
+    expectedTermsTitle: 'Mozilla VPN Servicebedingungen',
+    expectedPrivacyTitle: 'Mozilla VPN Datenschutzhinweis',
+  },
+  {
+    lang: 'es-US',
+    geo: 'es',
+    name: 'Spain',
+    expectedTermsTitle: 'Condiciones del servicio de Mozilla VPN',
+    expectedPrivacyTitle: 'Mozilla VPN Aviso de privacidad',
+  },
+  {
+    lang: 'fr',
+    geo: 'fr',
+    name: 'France',
+    expectedTermsTitle: 'Mozilla VPN - Conditions d’utilisation',
+    expectedPrivacyTitle: 'Mozilla VPN  - Politique de confidentialité',
+  },
+  {
+    lang: 'en-US',
+    geo: 'gb',
+    name: 'UK',
+    expectedTermsTitle: 'Mozilla VPN Terms of Service',
+    expectedPrivacyTitle: 'Mozilla VPN Privacy Notice',
+  }, // shouldn't this be in pounds?
+  {
+    lang: 'it',
+    geo: 'it',
+    name: 'Italy',
+    expectedTermsTitle: 'Termini di servizio di Mozilla VPN',
+    expectedPrivacyTitle: 'Informativa sulla privacy di Mozilla VPN',
+  },
+  {
+    lang: 'en-US',
+    geo: 'my',
+    name: 'Malaysia',
+    expectedTermsTitle: 'Mozilla VPN Terms of Service',
+    expectedPrivacyTitle: 'Mozilla VPN Privacy Notice',
+  },
+  {
+    lang: 'en-US',
+    geo: 'nz',
+    name: 'New Zealand',
+    expectedTermsTitle: 'Mozilla VPN Terms of Service',
+    expectedPrivacyTitle: 'Mozilla VPN Privacy Notice',
+  },
+  {
+    lang: 'en-US',
+    geo: 'sg',
+    name: 'Singapore',
+    expectedTermsTitle: 'Mozilla VPN Terms of Service',
+    expectedPrivacyTitle: 'Mozilla VPN Privacy Notice',
+  },
+  {
+    lang: 'en-US',
+    geo: 'US',
+    name: 'United States',
+    expectedTermsTitle: 'Mozilla VPN Terms of Service',
+    expectedPrivacyTitle: 'Mozilla VPN Privacy Notice',
+  },
 ]
 
 module.exports = {

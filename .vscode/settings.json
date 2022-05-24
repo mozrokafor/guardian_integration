@@ -1,6 +1,7 @@
 {
     "deepscan.ignoreConfirmWarning": true,
     "cSpell.words": [
+        "buildruntest",
         "PWDEBUG",
         "surveygizmo",
         "viewports"

@@ -13,7 +13,7 @@ require('dotenv').config()
  */
 const config = {
   /* Add any setup files here. */
-  // globalSetup: require.resolve('./global-setup.js'),
+  globalSetup: require.resolve('./global-setup.js'),
 
   /* Max time in milliseconds the whole test suite can to prevent CI breaking. */
   globalTimeout: process.env.CI ? 60 * 60 * 1000 : undefined,
@@ -31,9 +31,7 @@ const config = {
      * For example in `await expect(locator).toHaveText();`
      */
     timeout: 10000,
-    toMatchSnapshot: {
-      threshold: 0.3,
-    },
+    toMatchSnapshot: { maxDiffPixels: 100 },
   },
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
@@ -43,8 +41,8 @@ const config = {
   workers: process.env.CI ? 4 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    [process.env.CI ? 'github' : 'list'],
-    ['allure-playwright'],
+    [process.env.CI ? 'github' : 'line'],
+    // ['allure-playwright'],
     // ['json', {  outputFile: 'test-results.json' }],
     // ['./tests/utils/custom-reporter.js']
   ],
@@ -64,18 +62,18 @@ const config = {
 
   /* Configure projects for major browsers */
   projects: [
-    // {
-    //   name: 'chromium',
-    //   use: {
-    //     ...devices['Desktop Chrome'],
-    //   },
-    // },
     {
-      name: 'firefox',
+      name: 'chromium',
       use: {
-        ...devices['Desktop Firefox'],
+        ...devices['Desktop Chrome'],
       },
     },
+    // {
+    //   name: 'firefox',
+    //   use: {
+    //     ...devices['Desktop Firefox'],
+    //   },
+    // },
     // {
     //   name: 'webkit',
     //   use: {

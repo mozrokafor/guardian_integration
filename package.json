@@ -7,9 +7,9 @@
     "test:update": "npx playwright test --update-snapshots",
     "test:debug": "PWDEBUG=1 DEBUG=pw:api npm run test",
     "test:inspect": "npx playwright test --debug",
-    "test:local": "playwright test --project=local",
-    "test:stage": "playwright test --project=stage",
-    "test:production": "playwright test --project=production",
+    "test:local": "TEST_ENV=local playwright test tests/specs/guardian-redirects.spec.js",
+    "test:stage": "TEST_ENV=stage playwright test tests/specs/guardian-redirects.spec.js",
+    "test:production": "TEST_ENV=prod playwright test tests/specs/guardian-redirects.spec.js",
     "test:chrome": "npx playwright test --project=chromium",
     "test:firefox": "npx playwright test --project=firefox",
     "test:webkit": "npx playwright test --project=webkit"

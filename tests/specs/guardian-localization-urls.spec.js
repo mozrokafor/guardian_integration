@@ -1,18 +1,21 @@
 const { test, expect } = require('@playwright/test')
 const { supportedLocalesWithCurrency } = require('../fixtures/locales')
 
+const baseURL = process.env.TEST_EXPECT_URL
+
+test.describe.configure({ mode: 'parallel' })
+
 // C1538754 - Verify that 3 subscriptions plans are displayed correctly in VPN homepage for each of the new regions
 // C1601703 -  Verify that pricing and currency are displayed correctly in VPN homepage for each of the new regions
 test.describe('guardian localization by urls, C1538754, C1601703', () => {
   for (const locale of supportedLocalesWithCurrency) {
     test.describe(
-      `${locale.name} - https://www.mozilla.org/${locale.lang}/products/vpn/?geo=${locale.geo}`,
+      `${locale.name} - ${baseURL}/${locale.lang}/products/vpn/?geo=${locale.geo}`,
       () => {
         test.beforeEach(async ({ page }) => {
-          await page.goto(
-            `https://www.mozilla.org/${locale.lang}/products/vpn/?geo=${locale.geo}`,
-            { waitUntil: 'networkidle' },
-          )
+          await page.goto(`${baseURL}/${locale.lang}/products/vpn/?geo=${locale.geo}`, {
+            waitUntil: 'networkidle',
+          })
         })
 
         test(`Verify locale handling in ${locale.name}`, async ({ page }) => {
