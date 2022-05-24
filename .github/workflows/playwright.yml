@@ -79,3 +79,5 @@ jobs:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
+          TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
+          TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}
