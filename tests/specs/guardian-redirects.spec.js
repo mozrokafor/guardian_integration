@@ -9,21 +9,19 @@ test.describe.configure({ mode: 'parallel' })
 test.describe('guardian redirects', () => {
   test.describe(`redirects for ${baseUrl} origin`, () => {
     test(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
-      // console.log('env', process.env.TEST_ENV)
-      // expect(JSON.stringify(process.env.baseUrl)).toEqual('baseurle')
-      await verifyRedirectUrl(
-        page,
-        `${expectedBaseUrl}/products/vpn`,
-        `${expectedBaseUrl}/en-US/products/vpn/`,
-      )
+      const givenBaseUrl =
+        process.env.TEST_ENV === 'stage'
+          ? `${baseUrl}/vpn/invite/success`
+          : `${expectedBaseUrl}/products/vpn`
+      const givenExpectedUrl =
+        process.env.TEST_ENV === 'stage'
+          ? `${expectedBaseUrl}/en-US/products/vpn/invite/`
+          : `${expectedBaseUrl}/en-US/products/vpn/`
+      await verifyRedirectUrl(page, givenBaseUrl, givenExpectedUrl)
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/invite, C1539666`, async ({ page }) => {
-      // expect(process.env.expectedBaseUrl).toEqual('expectedurldf5')
-
       if (process.env.TEST_ENV === 'prod') {
-        // expect('dfsfsf').toEqual('inside proddddd?')
-
         await verifyRedirectUrl(
           page,
           `${baseUrl}/vpn/invite`,
@@ -33,12 +31,17 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/invite/success, C1539667`, async ({ page }) => {
-      const expectedUrl =
+      const givenBaseUrl =
         process.env.TEST_ENV === 'stage'
-          ? `${baseUrl}/en-US/r/vpn/invite/success`
+          ? `${baseUrl}/vpn/invite/success`
           : `${baseUrl}/r/vpn/invite/success`
 
-      await verifyRedirectUrl(page, `${baseUrl}/r/vpn/invite/success`, expectedUrl)
+      const expectedUrl =
+        process.env.TEST_ENV === 'stage'
+          ? `${expectedBaseUrl}/en-US/products/vpn/invite/`
+          : `${baseUrl}/r/vpn/invite/success`
+
+      await verifyRedirectUrl(page, givenBaseUrl, expectedUrl)
     })
 
     // doesn't exist anymore, verify
@@ -53,28 +56,37 @@ test.describe('guardian redirects', () => {
 
   test.describe('Misc redirects', () => {
     test(`Verify redirect for ${baseUrl}/r/vpn/client/feedback, C1539670`, async ({ page }) => {
-      await page.goto(`${baseUrl}/r/vpn/client/feedback`, { waitUntil: 'networkidle' })
+      if (process.env.TEST_ENV === 'prod') {
+        await page.goto(`${baseUrl}/r/vpn/client/feedback`, { waitUntil: 'networkidle' })
 
-      expect(page.url()).toContain('surveygizmo.com')
+        expect(page.url()).toContain('surveygizmo.com')
+      }
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/account, C1539671`, async ({ page }) => {
-      await verifyRedirectUrl(page, `${baseUrl}/r/vpn/account`, 'https://accounts.firefox.com/')
+      const givenExpectedUrl =
+        process.env.TEST_ENV === 'stage'
+          ? 'https://accounts.stage.mozaws.net/'
+          : 'https://accounts.firefox.com/'
+
+      await verifyRedirectUrl(page, `${baseUrl}/r/vpn/account`, givenExpectedUrl)
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/subscription, C1539672`, async ({
       page,
     }, testInfo) => {
       const expectedUrl =
-        testInfo.project.use.defaultBrowserType === 'firefox'
-          ? 'https://accounts.firefox.com/subscriptions/'
+        process.env.TEST_ENV === 'stage'
+          ? 'https://accounts.stage.mozaws.net/'
           : 'https://accounts.firefox.com/'
-      await verifyRedirectUrl(page, `${baseUrl}/r/vpn/subscription`, expectedUrl)
+      const givenExpectedUrl =
+        testInfo.project.use.defaultBrowserType === 'firefox'
+          ? `${expectedUrl}subscriptions/`
+          : `${expectedUrl}`
+      await verifyRedirectUrl(page, `${baseUrl}/r/vpn/subscription`, givenExpectedUrl)
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/support, C1539673`, async ({ page }) => {
-      // expect(JSON.stringify(process.env.TEST_PARALLEL_INDEX)).toEqual('TEST_PARALLEL_INDEX')
-
       await verifyRedirectUrl(
         page,
         `${baseUrl}/r/vpn/support`,
@@ -102,7 +114,7 @@ test.describe('guardian redirects', () => {
       await verifyRedirectUrl(
         page,
         `${baseUrl}/r/vpn/terms`,
-        `${expectedBaseUrl}/en-US/about/legal/terms/mozilla-vpn/`,
+        'https://www.mozilla.org/en-US/about/legal/terms/mozilla-vpn/',
       )
     })
 
@@ -110,7 +122,7 @@ test.describe('guardian redirects', () => {
       await verifyRedirectUrl(
         page,
         `${baseUrl}/r/vpn/privacy`,
-        `${expectedBaseUrl}/en-US/privacy/mozilla-vpn/`,
+        'https://www.mozilla.org/en-US/privacy/mozilla-vpn/',
       )
     })
   })
