@@ -19,7 +19,7 @@ const supportedLocales = [
     lang: 'de',
     geo: 'at',
     name: 'Austria',
-    expectedTermsTitle: 'Mozilla VPN Servicebedingungen',
+    expectedTermsTitle: 'Mozilla VPN Datenschutzhinweis',
     expectedPrivacyTitle: 'Mozilla VPN Servicebedingungen',
   }, // currently returns USD instead of EURO
   {

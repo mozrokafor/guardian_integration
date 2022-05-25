@@ -32,14 +32,13 @@ test.describe('guardian redirects', () => {
       }
     })
 
-    test(`Verify redirect for ${baseUrl}/r/vpn/invite/success, C1539667`, async ({ page }) => {
-      // expect(JSON.stringify(process.env)).toEqual('process.env')
+    test.only(`Verify redirect for ${baseUrl}/r/vpn/invite/success, C1539667`, async ({ page }) => {
+      const expectedUrl =
+        process.env.TEST_ENV === 'stage'
+          ? `${baseUrl}/en-US/r/vpn/invite/success`
+          : `${baseUrl}/r/vpn/invite/success`
 
-      await verifyRedirectUrl(
-        page,
-        `${baseUrl}/r/vpn/invite/success`,
-        `${baseUrl}/r/vpn/invite/success`,
-      )
+      await verifyRedirectUrl(page, `${baseUrl}/r/vpn/invite/success`, expectedUrl)
     })
 
     // doesn't exist anymore, verify
@@ -55,7 +54,6 @@ test.describe('guardian redirects', () => {
   test.describe('Misc redirects', () => {
     test(`Verify redirect for ${baseUrl}/r/vpn/client/feedback, C1539670`, async ({ page }) => {
       await page.goto(`${baseUrl}/r/vpn/client/feedback`, { waitUntil: 'networkidle' })
-      // expect(JSON.stringify(process.env.TEST_ENV)).toEqual('test_env')
 
       expect(page.url()).toContain('surveygizmo.com')
     })
