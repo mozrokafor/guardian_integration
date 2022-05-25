@@ -32,7 +32,7 @@ test.describe('guardian redirects', () => {
       }
     })
 
-    test.only(`Verify redirect for ${baseUrl}/r/vpn/invite/success, C1539667`, async ({ page }) => {
+    test(`Verify redirect for ${baseUrl}/r/vpn/invite/success, C1539667`, async ({ page }) => {
       const expectedUrl =
         process.env.TEST_ENV === 'stage'
           ? `${baseUrl}/en-US/r/vpn/invite/success`
