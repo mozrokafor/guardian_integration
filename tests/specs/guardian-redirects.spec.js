@@ -1,8 +1,8 @@
 const { test, expect } = require('@playwright/test')
 const { verifyRedirectUrl } = require('../utils/helpers')
 
-const baseUrl = process.env.baseUrl
-const expectedBaseUrl = process.env.expectedBaseUrl
+const baseUrl = process.env.TEST_BASE_URL
+const expectedBaseUrl = process.env.TEST_EXPECT_URL
 
 test.describe.configure({ mode: 'parallel' })
 
@@ -92,7 +92,9 @@ test.describe('guardian redirects', () => {
       )
     })
 
-    test(`Verify redirect for ${baseUrl}/r/vpn/contact, C1539675`, async ({ page }, testInfo) => {
+    test.only(`Verify redirect for ${baseUrl}/r/vpn/contact, C1539675`, async ({
+      page,
+    }, testInfo) => {
       const expectedUrl =
         testInfo.project.use.defaultBrowserType === 'firefox'
           ? 'https://accounts.firefox.com/support'
