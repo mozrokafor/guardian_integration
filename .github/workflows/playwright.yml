@@ -25,6 +25,8 @@ jobs:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
+          baseUrl: ${{ secrets.TEST_BASE_URL }}
+          expectedBaseUrl: ${{ secrets.TEST_EXPECT_URL }}
 
       - uses: actions/upload-artifact@master
         with:

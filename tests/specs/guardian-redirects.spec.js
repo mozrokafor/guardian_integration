@@ -9,8 +9,10 @@ test.describe.configure({ mode: 'parallel' })
 test.describe('guardian redirects', () => {
   test.describe(`redirects for ${baseUrl} origin`, () => {
     test(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
+      console.log('env', process.env.TEST_ENV)
+      console.log('baseurle', process.env.baseUrl)
       console.log(expectedBaseUrl)
-      console.log(process.env.TEST_BASE_URL)
+      console.log('expectedurldf', process.env.expectedBaseUrl)
       await verifyRedirectUrl(
         page,
         `${expectedBaseUrl}/products/vpn`,
