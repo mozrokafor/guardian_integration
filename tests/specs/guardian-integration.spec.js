@@ -19,7 +19,7 @@ test.describe('guardian integration', () => {
     })
   })
 
-  test.describe('has a valid subscription', () => {
+  test.skip('has a valid subscription', () => {
     test.beforeEach(async ({ page }) => {
       await page.goto(`${baseUrl}/en-US/products/vpn/`, {
         waitUntil: 'domcontentloaded',
