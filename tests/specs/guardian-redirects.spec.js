@@ -19,7 +19,7 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/invite, C1539666`, async ({ page }) => {
-      expect(process.env.expectedBaseUrl).toEqual('expectedurldf2')
+      expect(process.env.expectedBaseUrl).toEqual('expectedurldf5')
 
       if (process.env.TEST_ENV === 'prod') {
         expect('dfsfsf').toEqual('inside proddddd?')
