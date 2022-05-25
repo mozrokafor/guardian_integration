@@ -10,10 +10,6 @@ test.describe('guardian redirects', () => {
   test.describe(`redirects for ${baseUrl} origin`, () => {
     test(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
       console.log('env', process.env.TEST_ENV)
-      console.log('baseurle', process.env.baseUrl)
-      console.log(expectedBaseUrl)
-      console.log('expectedurldf', process.env.expectedBaseUrl)
-      expect(process.env.expectedBaseUrl).toEqual('expectedurldf')
       expect(process.env.baseUrl).toEqual('baseurle')
       await verifyRedirectUrl(
         page,
@@ -23,6 +19,8 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/invite, C1539666`, async ({ page }) => {
+      expect(process.env.expectedBaseUrl).toEqual('expectedurldf')
+
       if (process.env.TEST_ENV === 'prod') {
         await verifyRedirectUrl(
           page,
@@ -33,6 +31,8 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/invite/success, C1539667`, async ({ page }) => {
+      expect(JSON.stringify(process.env)).toEqual('process.env')
+
       await verifyRedirectUrl(
         page,
         `${baseUrl}/r/vpn/invite/success`,
@@ -53,6 +53,8 @@ test.describe('guardian redirects', () => {
   test.describe('Misc redirects', () => {
     test(`Verify redirect for ${baseUrl}/r/vpn/client/feedback, C1539670`, async ({ page }) => {
       await page.goto(`${baseUrl}/r/vpn/client/feedback`, { waitUntil: 'networkidle' })
+      expect(JSON.stringify(process.env.TEST_ENV)).toEqual('test_env')
+
       expect(page.url()).toContain('surveygizmo.com')
     })
 
