@@ -10,7 +10,7 @@ test.describe('guardian redirects', () => {
   test.describe(`redirects for ${baseUrl} origin`, () => {
     test(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
       console.log('env', process.env.TEST_ENV)
-      expect(process.env.baseUrl).toEqual('baseurle')
+      expect(JSON.stringify(process.env.baseUrl)).toEqual('baseurle')
       await verifyRedirectUrl(
         page,
         `${expectedBaseUrl}/products/vpn`,
@@ -22,6 +22,8 @@ test.describe('guardian redirects', () => {
       expect(process.env.expectedBaseUrl).toEqual('expectedurldf2')
 
       if (process.env.TEST_ENV === 'prod') {
+        expect('dfsfsf').toEqual('inside proddddd?')
+
         await verifyRedirectUrl(
           page,
           `${baseUrl}/vpn/invite`,
@@ -73,6 +75,8 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/support, C1539673`, async ({ page }) => {
+      expect(JSON.stringify(process.env.TEST_PARALLEL_INDEX)).toEqual('TEST_PARALLEL_INDEX')
+
       await verifyRedirectUrl(
         page,
         `${baseUrl}/r/vpn/support`,
