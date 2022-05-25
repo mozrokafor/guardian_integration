@@ -1,16 +1,16 @@
 const { test, expect } = require('@playwright/test')
 const { verifyRedirectUrl } = require('../utils/helpers')
 
-const baseUrl = 'https://vpn.mozilla.org'
-const expectedBaseUrl = 'https://www.mozilla.org'
+const baseUrl = process.env.baseUrl
+const expectedBaseUrl = process.env.expectedBaseUrl
 
 test.describe.configure({ mode: 'parallel' })
 
 test.describe('guardian redirects', () => {
   test.describe(`redirects for ${baseUrl} origin`, () => {
     test(`Verify redirect for ${baseUrl}, C1538764`, async ({ page }) => {
-      console.log('env', process.env.TEST_ENV)
-      expect(JSON.stringify(process.env.baseUrl)).toEqual('baseurle')
+      // console.log('env', process.env.TEST_ENV)
+      // expect(JSON.stringify(process.env.baseUrl)).toEqual('baseurle')
       await verifyRedirectUrl(
         page,
         `${expectedBaseUrl}/products/vpn`,
@@ -19,10 +19,10 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/invite, C1539666`, async ({ page }) => {
-      expect(process.env.expectedBaseUrl).toEqual('expectedurldf5')
+      // expect(process.env.expectedBaseUrl).toEqual('expectedurldf5')
 
       if (process.env.TEST_ENV === 'prod') {
-        expect('dfsfsf').toEqual('inside proddddd?')
+        // expect('dfsfsf').toEqual('inside proddddd?')
 
         await verifyRedirectUrl(
           page,
@@ -33,7 +33,7 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/invite/success, C1539667`, async ({ page }) => {
-      expect(JSON.stringify(process.env)).toEqual('process.env')
+      // expect(JSON.stringify(process.env)).toEqual('process.env')
 
       await verifyRedirectUrl(
         page,
@@ -55,7 +55,7 @@ test.describe('guardian redirects', () => {
   test.describe('Misc redirects', () => {
     test(`Verify redirect for ${baseUrl}/r/vpn/client/feedback, C1539670`, async ({ page }) => {
       await page.goto(`${baseUrl}/r/vpn/client/feedback`, { waitUntil: 'networkidle' })
-      expect(JSON.stringify(process.env.TEST_ENV)).toEqual('test_env')
+      // expect(JSON.stringify(process.env.TEST_ENV)).toEqual('test_env')
 
       expect(page.url()).toContain('surveygizmo.com')
     })
@@ -75,7 +75,7 @@ test.describe('guardian redirects', () => {
     })
 
     test(`Verify redirect for ${baseUrl}/r/vpn/support, C1539673`, async ({ page }) => {
-      expect(JSON.stringify(process.env.TEST_PARALLEL_INDEX)).toEqual('TEST_PARALLEL_INDEX')
+      // expect(JSON.stringify(process.env.TEST_PARALLEL_INDEX)).toEqual('TEST_PARALLEL_INDEX')
 
       await verifyRedirectUrl(
         page,
