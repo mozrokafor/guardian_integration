@@ -22,12 +22,17 @@ test.describe('guardian localization by urls, C1538754, C1601703', () => {
           const pricingTables = await page.locator('#pricing .vpn-content-block').count()
           expect(pricingTables).toEqual(3)
 
-          const monthPlanPrice = page.locator('#pricing .vpn-monthly-price-display').first()
-          const actualPrice = await monthPlanPrice.textContent()
+          const monthPlanPrice = await page
+            .locator('#pricing .vpn-monthly-price-display')
+            .first()
+            .textContent()
+
+          const expectedMonthlyPrice =
+            process.env.TEST_ENV === 'stage' ? locale.stageExpect : locale.expect
           expect(
-            actualPrice,
-            `${actualPrice} for ${locale.name} did not match expected ${locale.expect}`,
-          ).toEqual(locale.expect)
+            monthPlanPrice,
+            `${monthPlanPrice} for ${locale.name} did not match expected ${locale.expect}`,
+          ).toEqual(expectedMonthlyPrice)
         })
       },
     )

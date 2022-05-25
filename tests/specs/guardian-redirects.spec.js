@@ -44,12 +44,11 @@ test.describe('guardian redirects', () => {
       await verifyRedirectUrl(page, givenBaseUrl, expectedUrl)
     })
 
-    // doesn't exist anymore, verify
-    test.skip(`Verify redirect for ${baseUrl}/r/vpn/subscribe, C1539668`, async ({ page }) => {
+    test(`Verify redirect for ${baseUrl}/r/vpn/subscribe, C1539668`, async ({ page }) => {
       await verifyRedirectUrl(
         page,
         `${baseUrl}/r/vpn/subscribe`,
-        `${baseUrl}/en-US/products/vpn/#pricing`,
+        `${expectedBaseUrl}/en-US/products/vpn/#pricing`,
       )
     })
   })

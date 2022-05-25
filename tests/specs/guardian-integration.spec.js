@@ -4,11 +4,11 @@ const baseUrl = process.env.TEST_EXPECT_URL
 const expectedUrl = process.env.TEST_BASE_URL
 
 test.describe('guardian integration', () => {
-  test.describe('has subscription should redirect to downloads page', () => {
+  test.describe('has subscription', () => {
     test.beforeEach(async ({ page }) => {
       await page.goto(`${baseUrl}/vpn/`, { waitUntil: 'domcontentloaded' })
     })
-    test('Should be able to login to VPN', async ({ page }, context) => {
+    test('Should redirect to downloads page', async ({ page }, context) => {
       if (context.project.name == 'webkit') {
         await Promise.all([
           page.locator('#c-navigation-items >> text=Already a subscriber?').click(),
@@ -19,7 +19,7 @@ test.describe('guardian integration', () => {
     })
   })
 
-  test.skip('has a valid subscription', () => {
+  test.describe('has a valid subscription', () => {
     test.beforeEach(async ({ page }) => {
       await page.goto(`${baseUrl}/en-US/products/vpn/`, {
         waitUntil: 'domcontentloaded',
@@ -39,10 +39,7 @@ test.describe('guardian integration', () => {
 
         await page.locator('.email').fill(process.env.TESTACCOUNT_EMAIL)
         await page.locator('#submit-btn').click()
-        const passfield = await page.locator('#password')
-        passfield.focus()
-        passfield.click()
-        passfield.fill(process.env.TESTACCOUNT_PASSWORD)
+        await page.locator('#password').type(process.env.TESTACCOUNT_PASSWORD)
         await Promise.all([
           page.locator('#submit-btn').click(),
           page.waitForNavigation({ waitUntil: 'networkidle' }),
