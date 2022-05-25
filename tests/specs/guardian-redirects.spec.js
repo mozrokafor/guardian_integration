@@ -13,6 +13,8 @@ test.describe('guardian redirects', () => {
       console.log('baseurle', process.env.baseUrl)
       console.log(expectedBaseUrl)
       console.log('expectedurldf', process.env.expectedBaseUrl)
+      expect(process.env.expectedBaseUrl).toEqual('expectedurldf')
+      expect(process.env.baseUrl).toEqual('baseurle')
       await verifyRedirectUrl(
         page,
         `${expectedBaseUrl}/products/vpn`,
