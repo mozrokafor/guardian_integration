@@ -92,9 +92,7 @@ test.describe('guardian redirects', () => {
       )
     })
 
-    test.only(`Verify redirect for ${baseUrl}/r/vpn/contact, C1539675`, async ({
-      page,
-    }, testInfo) => {
+    test(`Verify redirect for ${baseUrl}/r/vpn/contact, C1539675`, async ({ page }, testInfo) => {
       const expectedUrl =
         testInfo.project.use.defaultBrowserType === 'firefox'
           ? 'https://accounts.firefox.com/support'
