@@ -1,5 +1,6 @@
 const { test, expect } = require('@playwright/test')
 const { verifyRedirectUrl } = require('../utils/helpers')
+const { allure } = require('allure-playwright')
 
 const baseUrl = process.env.TEST_BASE_URL
 const expectedBaseUrl = process.env.TEST_EXPECT_URL
