@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Wed May 25 03:49:39 GMT 2022","Wed May 25 03:49:39 GMT 2022","487","chromium","specs/guardian-redirects.spec.js","guardian redirects > Misc redirects","","","Verify redirect for undefined/r/vpn/contact, C1539675",""
-"failed","Wed May 25 03:49:39 GMT 2022","Wed May 25 03:49:41 GMT 2022","2253","firefox","specs/guardian-redirects.spec.js","guardian redirects > Misc redirects","","","Verify redirect for undefined/r/vpn/contact, C1539675",""
