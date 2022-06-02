@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "axe-playwright": "^1.1.11",
+    "axios": "^0.27.2",
     "dotenv": "^16.0.0"
   },
   "directories": {
