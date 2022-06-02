@@ -1,6 +1,6 @@
 const supportedLocalesWithCurrency = [
-  { lang: 'de', geo: 'at', name: 'Austria', expect: '4,99 €/Monat', stageExpect: '4,99 €/Monat' }, // currently returns USD instead of EURO
-  { lang: 'nl', geo: 'be', name: 'Belgium', expect: '4,99 €/maand', stageExpect: '4,99 €/maand' },
+  { lang: 'de', geo: 'at', name: 'Austria', expect: '4,99 €/Monat', stageExpect: 'US$4.99/Monat' }, // currently returns USD instead of EURO
+  { lang: 'nl', geo: 'be', name: 'Belgium', expect: '4,99 €/maand', stageExpect: 'US$4.99/maand' },
   {
     lang: 'en-US',
     geo: 'ca',
@@ -13,11 +13,11 @@ const supportedLocalesWithCurrency = [
     geo: 'ch',
     name: 'Switzerland',
     expect: 'CHF 5.99/Monat',
-    stageExpect: 'CHF 5.99/Monat',
+    stageExpect: 'US$4.99/Monat',
   },
-  { lang: 'de', geo: 'de', name: 'Germany', expect: '4,99 €/Monat', stageExpect: '4,99 €/Monat' },
-  { lang: 'es-US', geo: 'es', name: 'Spain', expect: '4,99 €/month', stageExpect: '4,99 €/month' },
-  { lang: 'fr', geo: 'fr', name: 'France', expect: '4,99 €/mois', stageExpect: '4,99 €/mois' },
+  { lang: 'de', geo: 'de', name: 'Germany', expect: '4,99 €/Monat', stageExpect: 'US$4.99/Monat' },
+  { lang: 'es-US', geo: 'es', name: 'Spain', expect: '4,99 €/month', stageExpect: 'US$4.99/month' },
+  { lang: 'fr', geo: 'fr', name: 'France', expect: '4,99 €/mois', stageExpect: 'US$4.99/mois' },
   { lang: 'en-US', geo: 'gb', name: 'UK', expect: 'US$4.99/month', stageExpect: 'US$4.99/month' }, // shouldn't this be in pounds?
   {
     lang: 'it',
