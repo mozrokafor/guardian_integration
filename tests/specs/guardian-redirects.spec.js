@@ -80,7 +80,7 @@ envVariables.forEach(env => {
 
       test(`Verify redirect for ${baseUrl}/r/vpn/account, C1539671`, async ({ page }) => {
         const givenExpectedUrl =
-          env.TEST_ENV !== 'stage'
+          env.TEST_ENV === 'stage'
             ? 'https://accounts.stage.mozaws.net/'
             : 'https://accounts.firefox.com/'
 
@@ -91,7 +91,7 @@ envVariables.forEach(env => {
         page,
       }, testInfo) => {
         const expectedUrl =
-          env.TEST_ENV !== 'stage'
+          env.TEST_ENV === 'stage'
             ? 'https://accounts.stage.mozaws.net/'
             : 'https://accounts.firefox.com/'
         const givenExpectedUrl =

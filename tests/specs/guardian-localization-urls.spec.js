@@ -40,6 +40,11 @@ envVariables.forEach(env => {
               .first()
               .textContent()
 
+            // console.log('=======================')
+            // console.log(locale.name)
+            // console.log(process.env.TEST_ENV === 'stage')
+            // console.log('=========end==============')
+
             const expectedMonthlyPrice =
               process.env.TEST_ENV === 'stage' ? locale.stageExpect : locale.expect
             expect(
