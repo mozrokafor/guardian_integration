@@ -30,7 +30,10 @@ envVariables.forEach(env => {
         })
 
         test(`Verify locale handling in ${locale.name} for privacy notice`, async ({ page }) => {
-          const privacyLink = page.locator('.vpn-footer-list > li:nth-child(1) > a:nth-child(1)')
+          const privacyLink = page.locator(
+            'footer .vpn-footer-list > li:nth-child(1) > a:nth-child(1)',
+          )
+
           await Promise.all([
             privacyLink.click(),
             page.waitForNavigation({ waitUntil: 'networkidle' }),

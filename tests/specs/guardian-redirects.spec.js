@@ -161,12 +161,12 @@ envVariables.forEach(env => {
         )
       })
 
-      test(`Verify redirect for ${baseUrl}/r/vpn/update/macos, C1539669`, async ({ page }) => {
-        await verifyRedirectUrl(page, `${baseUrl}/r/vpn/update/macos`, `${baseUrl}/vpn/download`)
-      })
-
       test(`Verify redirect for ${baseUrl}/r/vpn/update/windows, C1539669`, async ({ page }) => {
-        await verifyRedirectUrl(page, `${baseUrl}/r/vpn/update/windows`, `${baseUrl}/vpn/download`)
+        const expected =
+          env.TEST_ENV === 'stage'
+            ? `${expectedBaseUrl}/en-US/products/vpn/download/`
+            : `${baseUrl}/vpn/download`
+        await verifyRedirectUrl(page, `${baseUrl}/r/vpn/update/windows`, expected)
       })
 
       test(`Verify redirect for ${baseUrl}/r/vpn/update/ios, C1539669`, async ({ page }) => {

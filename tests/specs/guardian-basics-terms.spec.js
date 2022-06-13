@@ -28,7 +28,9 @@ envVariables.forEach(env => {
         })
 
         test(`Verify locale handling in ${locale.name} for terms`, async ({ page }) => {
-          const termsLink = page.locator('.vpn-footer-list > li:nth-child(2) > a:nth-child(1)')
+          const termsLink = page.locator(
+            'footer .vpn-footer-list > li:nth-child(2) > a:nth-child(1)',
+          )
           await Promise.all([
             termsLink.click(),
             page.waitForNavigation({ waitUntil: 'networkidle' }),
