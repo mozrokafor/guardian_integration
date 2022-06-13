@@ -2,7 +2,7 @@ name: guardian-bedrock-e2e
 
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '0 */4 * * *'
 
 jobs:
   build:
