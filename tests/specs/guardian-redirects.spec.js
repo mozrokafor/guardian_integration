@@ -74,9 +74,9 @@ envVariables.forEach(env => {
         page,
       }) => {
         if (env.TEST_ENV === 'prod') {
-          await page.goto('https://connect.mozilla.org/', { waitUntil: 'networkidle' })
+          await page.goto(`${baseUrl}/r/vpn/client/feedback`, { waitUntil: 'networkidle' })
 
-          expect(page.url()).toContain('surveygizmo.com')
+          expect(page.url()).toContain('connect.mozilla.org')
         }
       })
 
