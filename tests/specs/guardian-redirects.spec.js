@@ -70,9 +70,7 @@ envVariables.forEach(env => {
     })
 
     test.describe('Misc redirects', () => {
-      test.only(`Verify redirect for ${baseUrl}/r/vpn/client/feedback, C1539670`, async ({
-        page,
-      }) => {
+      test(`Verify redirect for ${baseUrl}/r/vpn/client/feedback, C1539670`, async ({ page }) => {
         if (env.TEST_ENV === 'prod') {
           await page.goto(`${baseUrl}/r/vpn/client/feedback`, { waitUntil: 'networkidle' })
 
