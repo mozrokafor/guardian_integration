@@ -17,6 +17,10 @@ jobs:
         with:
           node-version: '16'
           cache: 'npm'
+        
+      - uses: actions/download-artifact@v3
+        with:
+          name: github-pages 
 
       - name: Install Node dependencies
         run: |
@@ -35,7 +39,15 @@ jobs:
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
           TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
-          TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}
+          TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}      
+
+      - name: generate allure report
+        run: npm run report:build
+
+      - name: move history to reports
+        run: |
+          rm -rf allure-results/history
+          mv allure-report/history allure-results
 
       - name: generate allure report
         run: npm run report:build
