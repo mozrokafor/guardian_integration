@@ -5,16 +5,6 @@ on:
     - cron: '0 8 * * *'
 
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Environment to run the e2e against'
-        required: true
-        default: ':stage'
-        type: choice
-        options:
-          - :stage
-          - :prod
-          - :dev
 
 jobs:
   guardiane2e:
