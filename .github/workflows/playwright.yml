@@ -2,84 +2,66 @@ name: guardian-bedrock-e2e
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 8 * * *'
 
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to run the e2e against'
+        required: true
+        default: ':stage'
+        type: choice
+        options:
+          - :stage
+          - :prod
+          - :dev
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
+  guardiane2e:
+    name: 'Guardian e2e Tests'
+    timeout-minutes: 60
+    runs-on: ubuntu-latest    
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'npm'
-      - run: npm install
-      - run: npm install -D @playwright/test --with-deps
-      - run: npx playwright install
-      - run: npm test
+
+      - name: Install Node dependencies
+        run: |
+          npm ci
+          npm i -D allure-playwright
+          npm i -D allure-commandline
+
+      - name: Install Playwright Browsers
+        run: |
+          npm install -D @playwright/test --with-deps
+          npx playwright install
+
+      - name: Run Playwright tests
+        run: npx playwright test --reporter=line,allure-playwright --retries=2
         env:
-          CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
           TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
           TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}
+
+      - name: generate allure report
+        run: allure generate ./allure-results
 
       - uses: actions/upload-artifact@master
         with:
           name: allure-results
           path: allure-results
-          retention-days: 20
+          retention-days: 20      
 
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
+      - name: upload Artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          ref: gh-pages
-          path: gh-pages
+          path: allure-report
 
-      - name: Persist history for allure
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
-        with:
-          allure_results: allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
-          allure_history: allure-history
-          keep_reports: 20
-
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
-  e2e-tests:
-    runs-on: ubuntu-latest # or macos-latest, windows-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Use Node.js 14
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
-
-      - name: Install dependencies and run tests
-        run: |
-          npm install
-          npm install -D @playwright/test --with-deps
-          npx playwright install
-          npm run test
-        env:
-          CI: true
-          TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
-          TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
-          TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
-          TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}
+      - name: Publish to github pages
+        uses: actions/deploy-pages@v1
+        with:          
+          artifact_name: allure-report
