@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Node dependencies
         run: |
-          npm ci
+          npm install
           npm i -D allure-playwright
           npm i -D allure-commandline
 
