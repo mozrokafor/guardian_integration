@@ -50,8 +50,21 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: allure-report
+          retention-days: 20
 
-      - name: Publish to github pages
+  guardiandeploy:
+    needs: guardiane2e
+
+    permissions:
+      pages: write
+      id-token: write
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v1
-        with:          
-          artifact_name: allure-report

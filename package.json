@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:e2e": "npx playwright test tests/specs/guardian-basics-privacy.spec.js --retries=1",
+    "test:e2e": "npx playwright test tests/specs/guardian-basics-privacy.spec.js",
     "test:update": "npx playwright test --update-snapshots",
     "test:debug": "PWDEBUG=1 DEBUG=pw:api npm run test",
     "test:inspect": "npx playwright test --debug",
