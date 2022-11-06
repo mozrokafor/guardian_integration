@@ -30,7 +30,7 @@ jobs:
           npx playwright install
 
       - name: Run Playwright tests
-        run: npx playwright test --reporter=line,allure-playwright --retries=2
+        run: npx playwright test tests/specs/guardian-basics-privacy.spec.js --reporter=line,allure-playwright
         env:
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
@@ -42,9 +42,9 @@ jobs:
 
       - uses: actions/upload-artifact@master
         with:
-          name: allure-results
-          path: allure-results
-          retention-days: 20      
+          name: allure-report
+          path: allure-report
+          retention-days: 20
 
       - name: upload Artifact
         uses: actions/upload-pages-artifact@v1
