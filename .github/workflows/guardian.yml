@@ -20,6 +20,12 @@ jobs:
           node-version: '16'
           cache: 'npm'
 
+      - uses: actions/download-artifact@master
+        continue-on-error: true
+        with:
+          name: allure-report
+          path: allure-report
+
       - name: Install Node dependencies
         run: |
           npm install
@@ -37,7 +43,12 @@ jobs:
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
           TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
-          TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}      
+          TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}
+
+      - name: move history to results
+        run: |
+          rm -rf allure-results/history
+          mv allure-report/history allure-results
 
       - name: generate allure report
         run: npm run report:build
