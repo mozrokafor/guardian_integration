@@ -38,6 +38,7 @@ jobs:
           npx playwright install
 
       - name: Run Playwright tests
+        continue-on-error: true
         run: npx playwright test --reporter=line,allure-playwright
         env:
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
