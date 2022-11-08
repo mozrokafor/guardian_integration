@@ -15,10 +15,17 @@ jobs:
         run: |
           git pull
           git checkout gh-pages
+          git pull
 
       - uses: actions/upload-artifact@master
         with:
           name: allure-report
+          path: allure-report
+          retention-days: 20
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: new-allure-report
           path: allure-report
           retention-days: 20
 
@@ -69,8 +76,12 @@ jobs:
       - name: move history to results
         continue-on-error: true
         run: |
+          echo ls allure-report/history
+          echo ls allure-results
           rm -rf allure-results/history
           mv allure-report/history allure-results
+          echo ls allure-report/history
+          echo ls allure-results
 
       - name: generate allure report
         run: npm run report:build      
