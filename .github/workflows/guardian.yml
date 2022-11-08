@@ -80,8 +80,8 @@ jobs:
           ls allure-results
           rm -rf allure-results/history
           mv allure-report/history allure-results
-          ls allure-report/history
           ls allure-results
+          ls allure-report/history
 
       - name: generate allure report
         run: npm run report:build      
