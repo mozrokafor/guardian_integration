@@ -8,25 +8,25 @@ on:
 
 jobs:
   guardianprep:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '16'
-        cache: 'npm' 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm' 
 
-    - name: Get history file from gh-pages branch
-      run: git checkout gh-pages
+      - name: Get history file from gh-pages branch
+        run: git checkout gh-pages
 
-    - uses: actions/upload-artifact@master
-      with:
-        name: allure-report
-        path: allure-report
-        retention-days: 20
+      - uses: actions/upload-artifact@master
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 20
 
-    - name: Back to main branch
-      run: git checkout main
+      - name: Back to main branch
+        run: git checkout main
 
   guardiane2e:
     name: 'Guardian e2e Tests'
