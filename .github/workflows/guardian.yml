@@ -9,6 +9,13 @@ on:
 jobs:
   guardianprep:
   runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+        cache: 'npm' 
+
     - name: Get history file from gh-pages branch
         run: |
           git checkout gh-pages
@@ -29,13 +36,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          cache: 'npm'      
-
+      
+    steps:          
       - name: Install Node dependencies
         run: |
           npm install
