@@ -17,17 +17,16 @@ jobs:
         cache: 'npm' 
 
     - name: Get history file from gh-pages branch
-        run: git checkout gh-pages
+      run: git checkout gh-pages
 
     - uses: actions/upload-artifact@master
-        with:
-          name: allure-report
-          path: allure-report
-          retention-days: 20
+      with:
+        name: allure-report
+        path: allure-report
+        retention-days: 20
 
     - name: Back to main branch
-        run: |
-          git checkout main
+      run: git checkout main
 
   guardiane2e:
     name: 'Guardian e2e Tests'
