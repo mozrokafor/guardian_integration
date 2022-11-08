@@ -39,7 +39,7 @@ jobs:
 
       - name: Run Playwright tests
         continue-on-error: true
-        run: npx playwright test --reporter=line,allure-playwright
+        run: npx playwright test tests/specs/guardian-localization-urls.spec.js --reporter=line,allure-playwright
         env:
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
@@ -70,7 +70,7 @@ jobs:
       - name: push report to gh branch
         run: |
           git switch -c gh-pages
-          git add allure-report
+          git add allure-report -f
           git commit -m "Automated Update"
           git push -u origin gh-pages       
 
