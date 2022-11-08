@@ -70,6 +70,8 @@ jobs:
       - name: push report to gh branch
         run: |
           git switch -c gh-pages
+          git config --global user.email "rokafor@mozilla.com"
+          git config --global user.name "Github Actions"
           git add allure-report -f
           git commit -m "Automated Update"
           git push -u origin gh-pages       
