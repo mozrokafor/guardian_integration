@@ -17,7 +17,9 @@ jobs:
           cache: 'npm' 
 
       - name: Get history file from gh-pages branch
-        run: git checkout gh-pages
+        run: |
+          git pull
+          git checkout gh-pages
 
       - uses: actions/upload-artifact@master
         with:
@@ -29,6 +31,7 @@ jobs:
         run: git checkout main
 
   guardiane2e:
+    needs: guardianprep
     name: 'Guardian e2e Tests'
     timeout-minutes: 60
     runs-on: ubuntu-latest
