@@ -17,8 +17,7 @@ jobs:
         cache: 'npm' 
 
     - name: Get history file from gh-pages branch
-        run: |
-          git checkout gh-pages
+        run: git checkout gh-pages
 
     - uses: actions/upload-artifact@master
         with:
@@ -36,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      
+
     steps:          
       - name: Install Node dependencies
         run: |
