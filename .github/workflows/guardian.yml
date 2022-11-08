@@ -47,6 +47,7 @@ jobs:
           TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}
 
       - name: move history to results
+        continue-on-error: true
         run: |
           rm -rf allure-results/history
           mv allure-report/history allure-results
