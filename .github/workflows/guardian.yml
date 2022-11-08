@@ -20,7 +20,7 @@ jobs:
           node-version: '16'
           cache: 'npm'
 
-      - uses: actions/download-artifact@master
+      - uses: actions/download-artifact@v2
         continue-on-error: true
         with:
           name: allure-report
@@ -66,6 +66,13 @@ jobs:
         with:
           path: allure-report
           retention-days: 20
+
+      - name: push report to gh branch
+        run: |
+          git switch -c gh-pages
+          git add allure-report
+          git commit -m "Automated Update"
+          git push -u origin gh-pages       
 
   guardiandeploy:
     needs: guardiane2e
