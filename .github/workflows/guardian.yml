@@ -74,7 +74,7 @@ jobs:
           git config --global user.name "Github Actions"
           git add allure-report -f
           git commit -m "Automated Update"
-          git push -u origin gh-pages       
+          git push -u origin gh-pages -f
 
   guardiandeploy:
     needs: guardiane2e
