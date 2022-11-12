@@ -2,7 +2,7 @@ name: guardian-bedrock-e2e
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */8 * * *'
 
   workflow_dispatch:
 
@@ -17,10 +17,15 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
-      - run: npm install
-      - run: npm install -D @playwright/test --with-deps
-      - run: npx playwright install
-      - run: npm run test:e2e
+
+      - name: Install dependencies          
+        run: |
+          npm install
+          npm install -D @playwright/test --with-deps
+          npx playwright install
+
+      - name: Run tests
+        run: npm run test:e2e
         env:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
