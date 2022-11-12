@@ -25,7 +25,7 @@ jobs:
           npx playwright install
 
       - name: Run tests
-        run: npm run test:e2e
+        run: npx playwright test tests/specs/guardian-basics-privacy.spec.js
         env:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
