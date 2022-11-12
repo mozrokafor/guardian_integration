@@ -7,34 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  guardianprep:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Get history file from gh-pages branch
-        continue-on-error: true
-        run: |
-          git pull
-          git checkout gh-pages
-          git pull
-
-      - uses: actions/upload-artifact@master
-        with:
-          name: allure-report
-          path: allure-report
-          retention-days: 20
-
-      - uses: actions/upload-artifact@master
-        with:
-          name: new-allure-report
-          path: allure-report
-          retention-days: 20
-
-      - name: Back to main branch
-        run: git checkout main
-
+  
   guardiane2e:
-    needs: guardianprep
     name: 'Guardian e2e Tests'
     timeout-minutes: 60
     runs-on: ubuntu-latest
