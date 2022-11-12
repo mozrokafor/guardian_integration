@@ -7,20 +7,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  e2e:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'npm'
 
-      - name: Install dependencies          
+      - name: Install Node dependencies          
         run: |
           npm install
+          npm i -D allure-playwright
+          npm i -D allure-commandline
+
+      - name: Install Playwright Browsers
+        run: |
           npm install -D @playwright/test --with-deps
           npx playwright install
 
@@ -40,7 +45,7 @@ jobs:
           retention-days: 20
 
       - name: Get Allure history
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         if: always()
         continue-on-error: true
         with:
