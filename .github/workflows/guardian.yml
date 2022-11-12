@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - run: npm install -D @playwright/test --with-deps
       - run: npx playwright install
-      - run: npm test
+      - run: npm test:e2e
         env:
           CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
