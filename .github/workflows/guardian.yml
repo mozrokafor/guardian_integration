@@ -2,25 +2,55 @@ name: guardian-bedrock-e2e
 
 on:
   schedule:
-    - cron: '0 */8 * * *'
+    - cron: '0 8 * * *'
 
   workflow_dispatch:
 
 jobs:
-  e2e:
+  guardianprep:
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Get history file from gh-pages branch
+        continue-on-error: true
+        run: |
+          git pull
+          git checkout gh-pages
+          git pull
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 20
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: new-allure-report
+          path: allure-report
+          retention-days: 20
+
+      - name: Back to main branch
+        run: git checkout main
+
+  guardiane2e:
+    needs: guardianprep
+    name: 'Guardian e2e Tests'
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '16'
-          cache: 'npm'
-
-      - name: Install Node dependencies          
+          cache: 'npm' 
+          
+      - name: Install Node dependencies
         run: |
-          npm ci
+          npm install
           npm i -D allure-playwright
           npm i -D allure-commandline
 
@@ -29,44 +59,63 @@ jobs:
           npm install -D @playwright/test --with-deps
           npx playwright install
 
-      - name: Run tests
-        run: npx playwright test tests/specs/guardian-basics-privacy.spec.js
+      - name: Run Playwright tests
+        continue-on-error: true
+        run: npx playwright test --reporter=line,allure-playwright
         env:
-          CI: true
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
           TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
           TEST_EXPECT_URL: ${{ secrets.TEST_EXPECT_URL }}
 
-      - uses: actions/upload-artifact@master
-        with:
-          name: allure-results
-          path: allure-results
-          retention-days: 20
-
-      - name: Get Allure history
-        uses: actions/checkout@v3
-        if: always()
+      - uses: actions/download-artifact@v2
         continue-on-error: true
         with:
-          ref: gh-pages
-          path: gh-pages
+          name: allure-report
+          path: allure-report
 
-      - name: Persist history for allure
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
+      - name: move history to results
+        continue-on-error: true
+        run: |
+          ls allure-report/history
+          ls allure-results
+          rm -rf allure-results/history
+          echo "============================================================================"
+          mv allure-report/history allure-results
+          ls allure-results
+          ls allure-report/history
+
+      - name: generate allure report
+        run: npm run report:build      
+
+      - name: upload Artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          allure_results: allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
-          allure_history: allure-history
-          keep_reports: 20
+          path: allure-report
+          retention-days: 20
 
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+      - name: push report to gh branch
+        run: |
+          git switch -c gh-pages
+          git config --global user.email "rokafor@mozilla.com"
+          git config --global user.name "Github Actions"
+          git add allure-report -f
+          git commit -m "Automated Update"
+          git push -u origin gh-pages -f
+
+  guardiandeploy:
+    needs: guardiane2e
+
+    permissions:
+      pages: write
+      id-token: write
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
