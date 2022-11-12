@@ -21,8 +21,7 @@ jobs:
       - run: npm install -D @playwright/test --with-deps
       - run: npx playwright install
       - run: npm run test:e2e
-        env:
-          CI: true
+        env:          
           TESTACCOUNT_EMAIL: ${{ secrets.TESTACCOUNT_EMAIL }}
           TESTACCOUNT_PASSWORD: ${{ secrets.TESTACCOUNT_PASSWORD }}
           TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
@@ -36,8 +35,7 @@ jobs:
 
       - name: Get Allure history
         uses: actions/checkout@v3
-        if: always()
-        continue-on-error: true
+        if: always()        
         with:
           ref: gh-pages
           path: gh-pages
