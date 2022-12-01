@@ -1,0 +1,38 @@
+[
+    {
+        "path": ".github",
+        "blob_href": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/61aafcb9d193a19cad07ef5be199872698404408/.github",
+        "start_line": 2071,
+        "start_column": null,
+        "end_line": 2071,
+        "end_column": null,
+        "annotation_level": "warning",
+        "title": "",
+        "message": "Attempt 1 failed. Reason: Child_process exited with error code 1",
+        "raw_details": ""
+    },
+    {
+        "path": ".github",
+        "blob_href": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/61aafcb9d193a19cad07ef5be199872698404408/.github",
+        "start_line": 4115,
+        "start_column": null,
+        "end_line": 4115,
+        "end_column": null,
+        "annotation_level": "warning",
+        "title": "",
+        "message": "Attempt 2 failed. Reason: Child_process exited with error code 1",
+        "raw_details": ""
+    },
+    {
+        "path": ".github",
+        "blob_href": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/61aafcb9d193a19cad07ef5be199872698404408/.github",
+        "start_line": 6028,
+        "start_column": null,
+        "end_line": 6028,
+        "end_column": null,
+        "annotation_level": "failure",
+        "title": "",
+        "message": "Final attempt failed. Child_process exited with error code 1",
+        "raw_details": ""
+    }
+]
